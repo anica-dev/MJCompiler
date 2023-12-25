@@ -1,0 +1,145 @@
+INFO  12:51:29,296 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  12:51:29,324 - #2 program
+INFO  12:51:29,324 - #48 Keske
+INFO  12:51:29,324 - #15 const
+INFO  12:51:29,325 - #48 int
+INFO  12:51:29,325 - #48 pi
+INFO  12:51:29,326 - #9 =
+INFO  12:51:29,326 - #47 13
+INFO  12:51:29,326 - #41 ;
+INFO  12:51:29,327 - #48 char
+INFO  12:51:29,327 - #48 x
+INFO  12:51:29,328 - #43 ,
+INFO  12:51:29,329 - #48 y
+INFO  12:51:29,329 - #7 [
+INFO  12:51:29,329 - #8 ]
+INFO  12:51:29,329 - #41 ;
+INFO  12:51:29,329 - #15 const
+INFO  12:51:29,329 - #48 bool
+INFO  12:51:29,329 - #48 t
+INFO  12:51:29,330 - #9 =
+INFO  12:51:29,330 - #45 1
+INFO  12:51:29,330 - #41 ;
+INFO  12:51:29,330 - #3 {
+INFO  12:51:29,332 - #12 void
+INFO  12:51:29,333 - #48 main
+INFO  12:51:29,333 - #5 (
+INFO  12:51:29,334 - #6 )
+INFO  12:51:29,334 - #48 int
+INFO  12:51:29,335 - #48 bodovi
+INFO  12:51:29,335 - #43 ,
+INFO  12:51:29,335 - #48 b
+INFO  12:51:29,335 - #7 [
+INFO  12:51:29,335 - #8 ]
+INFO  12:51:29,335 - #41 ;
+INFO  12:51:29,335 - #48 int
+INFO  12:51:29,335 - #48 x
+INFO  12:51:29,335 - #7 [
+INFO  12:51:29,335 - #8 ]
+INFO  12:51:29,336 - #41 ;
+INFO  12:51:29,336 - #3 {
+INFO  12:51:29,336 - #4 }
+INFO  12:51:29,336 - #4 }
+INFO  12:51:29,339 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             x
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:51:29,339 - ===================================
+INFO  12:51:29,347 - ===================================
+INFO  12:51:29,347 - Parsiranje uspesno zavrseno!

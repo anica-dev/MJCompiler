@@ -1,0 +1,195 @@
+INFO  11:16:28,859 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  11:16:28,892 - #2 program
+INFO  11:16:28,892 - #48 test301
+INFO  11:16:28,892 - #15 const
+INFO  11:16:28,894 - #48 int
+INFO  11:16:28,895 - #48 nula
+INFO  11:16:28,896 - #9 =
+INFO  11:16:28,896 - #47 0
+INFO  11:16:28,896 - #41 ;
+INFO  11:16:28,898 - #15 const
+INFO  11:16:28,899 - #48 int
+INFO  11:16:28,899 - #48 jedan
+INFO  11:16:28,899 - #9 =
+INFO  11:16:28,899 - #47 1
+INFO  11:16:28,899 - #41 ;
+INFO  11:16:28,900 - #15 const
+INFO  11:16:28,900 - #48 int
+INFO  11:16:28,900 - #48 pet
+INFO  11:16:28,900 - #9 =
+INFO  11:16:28,900 - #47 5
+INFO  11:16:28,900 - #41 ;
+INFO  11:16:28,900 - #48 int
+INFO  11:16:28,900 - #48 niz
+INFO  11:16:28,901 - #7 [
+INFO  11:16:28,901 - #8 ]
+INFO  11:16:28,901 - #43 ,
+INFO  11:16:28,901 - #48 niz2
+INFO  11:16:28,901 - #7 [
+INFO  11:16:28,901 - #8 ]
+INFO  11:16:28,901 - #43 ,
+INFO  11:16:28,901 - #48 a
+INFO  11:16:28,901 - #43 ,
+INFO  11:16:28,901 - #48 b
+INFO  11:16:28,901 - #41 ;
+INFO  11:16:28,902 - #48 char
+INFO  11:16:28,903 - #48 nizch
+INFO  11:16:28,903 - #7 [
+INFO  11:16:28,903 - #8 ]
+INFO  11:16:28,903 - #41 ;
+INFO  11:16:28,903 - #3 {
+INFO  11:16:28,903 - #12 void
+INFO  11:16:28,903 - #48 main
+INFO  11:16:28,903 - #5 (
+INFO  11:16:28,905 - #6 )
+INFO  11:16:28,925 - #48 int
+INFO  11:16:28,927 - #48 bodovi
+INFO  11:16:28,927 - #41 ;
+INFO  11:16:28,927 - #48 bool
+INFO  11:16:28,927 - #48 br
+INFO  11:16:28,927 - #41 ;
+INFO  11:16:28,927 - #3 {
+INFO  11:16:28,927 - #4 }
+INFO  11:16:28,929 - #4 }
+INFO  11:16:28,931 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        ConstDeclarations(
+          ConstDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+                ConstDeclaration(
+                 nula
+                  ConstNum(
+                   0
+                  ) [ConstNum]
+                ) [ConstDeclaration]
+              ) [SingleConstDeclaration]
+            ) [ConstDecl]
+          ) [ConstDeclarations]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+              ConstDeclaration(
+               jedan
+                ConstNum(
+                 1
+                ) [ConstNum]
+              ) [ConstDeclaration]
+            ) [SingleConstDeclaration]
+          ) [ConstDecl]
+        ) [ConstDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pet
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              SingleVarDeclaration(
+                ArrayVarDecl(
+                 niz
+                ) [ArrayVarDecl]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               niz2
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+            SingleVarDeclar(
+             a
+            ) [SingleVarDeclar]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           b
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         nizch
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVarDeclaration(
+              SingleVarDeclar(
+               bodovi
+              ) [SingleVarDeclar]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             br
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:16:28,931 - ===================================
+INFO  11:16:28,938 - Detektovana je konstanta nula na liniji 5
+INFO  11:16:28,938 - Detektovana je konstanta jedan na liniji 6
+INFO  11:16:28,938 - Detektovana je konstanta pet na liniji 7
+INFO  11:16:28,938 - Detektovana je globalna promenljiva a na liniji 9
+INFO  11:16:28,938 - Detektovana je globalna promenljiva b na liniji 9
+INFO  11:16:28,938 - Detektovana je lokalna promenljiva bodovi na liniji 14
+INFO  11:16:28,938 - Detektovana je lokalna promenljiva br na liniji 15
+INFO  11:16:28,938 - ===================================
+INFO  11:16:28,942 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,314 @@
+INFO  18:26:04,496 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  18:26:04,538 - #2 program
+INFO  18:26:04,538 - #48 Keske
+INFO  18:26:04,538 - #15 const
+INFO  18:26:04,540 - #48 int
+INFO  18:26:04,540 - #48 pi
+INFO  18:26:04,540 - #9 =
+INFO  18:26:04,540 - #47 13
+INFO  18:26:04,540 - #41 ;
+INFO  18:26:04,541 - #48 int
+INFO  18:26:04,542 - #48 x
+INFO  18:26:04,542 - #43 ,
+INFO  18:26:04,542 - #48 y
+INFO  18:26:04,542 - #7 [
+INFO  18:26:04,542 - #8 ]
+INFO  18:26:04,542 - #41 ;
+INFO  18:26:04,542 - #48 int
+INFO  18:26:04,543 - #48 niz
+INFO  18:26:04,543 - #7 [
+INFO  18:26:04,543 - #8 ]
+INFO  18:26:04,543 - #41 ;
+INFO  18:26:04,543 - #15 const
+INFO  18:26:04,543 - #48 bool
+INFO  18:26:04,544 - #48 t
+INFO  18:26:04,544 - #9 =
+INFO  18:26:04,544 - #45 1
+INFO  18:26:04,544 - #41 ;
+INFO  18:26:04,544 - #3 {
+INFO  18:26:04,544 - #12 void
+INFO  18:26:04,545 - #48 main
+INFO  18:26:04,545 - #5 (
+INFO  18:26:04,545 - #6 )
+INFO  18:26:04,546 - #48 int
+INFO  18:26:04,546 - #48 bodovi
+INFO  18:26:04,546 - #43 ,
+INFO  18:26:04,546 - #48 b
+INFO  18:26:04,546 - #7 [
+INFO  18:26:04,546 - #8 ]
+INFO  18:26:04,546 - #41 ;
+INFO  18:26:04,546 - #48 int
+INFO  18:26:04,546 - #48 a
+INFO  18:26:04,546 - #41 ;
+INFO  18:26:04,546 - #3 {
+INFO  18:26:04,547 - #48 niz
+INFO  18:26:04,547 - #9 =
+INFO  18:26:04,547 - #18 new
+INFO  18:26:04,548 - #48 int
+INFO  18:26:04,548 - #7 [
+INFO  18:26:04,548 - #47 3
+INFO  18:26:04,548 - #8 ]
+INFO  18:26:04,549 - #41 ;
+INFO  18:26:04,549 - #48 niz
+INFO  18:26:04,549 - #7 [
+INFO  18:26:04,550 - #47 1
+INFO  18:26:04,550 - #8 ]
+INFO  18:26:04,550 - #9 =
+INFO  18:26:04,550 - #47 2
+INFO  18:26:04,550 - #41 ;
+INFO  18:26:04,550 - #11 print
+INFO  18:26:04,550 - #5 (
+INFO  18:26:04,550 - #48 t
+INFO  18:26:04,550 - #6 )
+INFO  18:26:04,550 - #41 ;
+INFO  18:26:04,550 - #48 a
+INFO  18:26:04,550 - #9 =
+INFO  18:26:04,550 - #47 3
+INFO  18:26:04,550 - #26 +
+INFO  18:26:04,551 - #48 niz
+INFO  18:26:04,553 - #28 *
+INFO  18:26:04,554 - #47 2
+INFO  18:26:04,558 - #41 ;
+INFO  18:26:04,559 - #4 }
+INFO  18:26:04,559 - #4 }
+INFO  18:26:04,562 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        ConstDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+              ConstDeclaration(
+               pi
+                ConstNum(
+                 13
+                ) [ConstNum]
+              ) [ConstDeclaration]
+            ) [SingleConstDeclaration]
+          ) [ConstDecl]
+        ) [ConstDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationList(
+            SingleVarDeclaration(
+              SingleVarDeclar(
+               x
+              ) [SingleVarDeclar]
+            ) [SingleVarDeclaration]
+            ArrayVarDecl(
+             y
+            ) [ArrayVarDecl]
+          ) [VarDeclarationList]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          ArrayVarDecl(
+           niz
+          ) [ArrayVarDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             a
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              DesignatorStat(
+                DesignatorStatAssign(
+                  DesStatAssignopExpr(
+                    DesignatorNoArr(
+                     niz
+                    ) [DesignatorNoArr]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    Expr(
+                      TermExpr(
+                        JustTerm(
+                          FactorNewExpr(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr(
+                              TermExpr(
+                                JustTerm(
+                                  FactorNum(
+                                   3
+                                  ) [FactorNum]
+                                ) [JustTerm]
+                              ) [TermExpr]
+                            ) [Expr]
+                          ) [FactorNewExpr]
+                        ) [JustTerm]
+                      ) [TermExpr]
+                    ) [Expr]
+                  ) [DesStatAssignopExpr]
+                ) [DesignatorStatAssign]
+              ) [DesignatorStat]
+            ) [Statements]
+            DesignatorStat(
+              DesignatorStatAssign(
+                DesStatAssignopExpr(
+                  DesignatorArray(
+                    DesignatorArrName(
+                     niz
+                    ) [DesignatorArrName]
+                    Expr(
+                      TermExpr(
+                        JustTerm(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                        ) [JustTerm]
+                      ) [TermExpr]
+                    ) [Expr]
+                  ) [DesignatorArray]
+                  AssignopDerived1(
+                  ) [AssignopDerived1]
+                  Expr(
+                    TermExpr(
+                      JustTerm(
+                        FactorNum(
+                         2
+                        ) [FactorNum]
+                      ) [JustTerm]
+                    ) [TermExpr]
+                  ) [Expr]
+                ) [DesStatAssignopExpr]
+              ) [DesignatorStatAssign]
+            ) [DesignatorStat]
+          ) [Statements]
+          PrintStatement(
+            Expr(
+              TermExpr(
+                JustTerm(
+                  FactorDes(
+                    DesignatorNoArr(
+                     t
+                    ) [DesignatorNoArr]
+                  ) [FactorDes]
+                ) [JustTerm]
+              ) [TermExpr]
+            ) [Expr]
+          ) [PrintStatement]
+        ) [Statements]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExpr(
+              DesignatorNoArr(
+               a
+              ) [DesignatorNoArr]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              Expr(
+                AddExpr(
+                  Expr(
+                    TermExpr(
+                      JustTerm(
+                        FactorNum(
+                         3
+                        ) [FactorNum]
+                      ) [JustTerm]
+                    ) [TermExpr]
+                  ) [Expr]
+                  Add(
+                  ) [Add]
+                  TermMulop(
+                    JustTerm(
+                      FactorDes(
+                        DesignatorNoArr(
+                         niz
+                        ) [DesignatorNoArr]
+                      ) [FactorDes]
+                    ) [JustTerm]
+                    Multiply(
+                    ) [Multiply]
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                  ) [TermMulop]
+                ) [AddExpr]
+              ) [Expr]
+            ) [DesStatAssignopExpr]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:26:04,562 - ===================================
+ERROR 18:26:04,569 - Semanticka greska na liniji 14: Operand instrukcije PRINT mora biti char ili int tipa na liniji 14
+ERROR 18:26:04,571 - Greska: Tip mora da bude int u mulop operaciji na liniji 16
+ERROR 18:26:04,571 - Greska: Tip mora da bude int u addop operaciji na liniji 16
+INFO  18:26:04,571 - ===================================
+ERROR 18:26:04,571 - Parsiranje NIJE uspesno zavrseno!

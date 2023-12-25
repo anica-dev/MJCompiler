@@ -1,0 +1,557 @@
+INFO  17:51:26,769 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:51:26,805 - #2 program
+INFO  17:51:26,805 - #46 test301
+INFO  17:51:26,806 - #15 const
+INFO  17:51:26,807 - #46 int
+INFO  17:51:26,807 - #46 nula
+INFO  17:51:26,807 - #9 =
+INFO  17:51:26,807 - #45 0
+INFO  17:51:26,807 - #39 ;
+INFO  17:51:26,808 - #15 const
+INFO  17:51:26,808 - #46 int
+INFO  17:51:26,808 - #46 jedan
+INFO  17:51:26,808 - #9 =
+INFO  17:51:26,808 - #45 1
+INFO  17:51:26,808 - #39 ;
+INFO  17:51:26,808 - #15 const
+INFO  17:51:26,809 - #46 int
+INFO  17:51:26,809 - #46 pet
+INFO  17:51:26,809 - #9 =
+INFO  17:51:26,809 - #45 5
+INFO  17:51:26,809 - #39 ;
+INFO  17:51:26,809 - #46 int
+INFO  17:51:26,809 - #46 niz
+INFO  17:51:26,809 - #7 [
+INFO  17:51:26,809 - #8 ]
+INFO  17:51:26,809 - #41 ,
+INFO  17:51:26,809 - #46 niz2
+INFO  17:51:26,809 - #7 [
+INFO  17:51:26,809 - #8 ]
+INFO  17:51:26,809 - #41 ,
+INFO  17:51:26,810 - #46 a
+INFO  17:51:26,810 - #41 ,
+INFO  17:51:26,810 - #46 b
+INFO  17:51:26,810 - #39 ;
+INFO  17:51:26,810 - #46 char
+INFO  17:51:26,810 - #46 nizch
+INFO  17:51:26,810 - #7 [
+INFO  17:51:26,811 - #8 ]
+INFO  17:51:26,811 - #39 ;
+INFO  17:51:26,811 - #3 {
+INFO  17:51:26,811 - #12 void
+INFO  17:51:26,811 - #46 main
+INFO  17:51:26,811 - #5 (
+INFO  17:51:26,811 - #6 )
+INFO  17:51:26,812 - #46 int
+INFO  17:51:26,813 - #46 bodovi
+INFO  17:51:26,813 - #39 ;
+INFO  17:51:26,813 - #3 {
+INFO  17:51:26,813 - #46 bodovi
+INFO  17:51:26,813 - #9 =
+INFO  17:51:26,814 - #45 0
+INFO  17:51:26,814 - #39 ;
+INFO  17:51:26,815 - #46 bodovi
+INFO  17:51:26,815 - #37 ++
+ERROR 17:51:26,815 - 
+Sintaksna greska na liniji 17
+INFO  17:51:26,815 - #39 ;
+INFO  17:51:26,815 - #46 bodovi
+INFO  17:51:26,815 - #9 =
+INFO  17:51:26,816 - #46 bodovi
+ERROR 17:51:26,816 - Izvrsen oporavak do ; u liniji 17
+INFO  17:51:26,816 - #24 +
+INFO  17:51:26,816 - #46 jedan
+INFO  17:51:26,817 - #39 ;
+INFO  17:51:26,818 - #46 bodovi
+INFO  17:51:26,818 - #9 =
+INFO  17:51:26,818 - #46 bodovi
+INFO  17:51:26,818 - #26 *
+ERROR 17:51:26,818 - 
+Sintaksna greska na liniji 19
+INFO  17:51:26,818 - #46 pet
+INFO  17:51:26,818 - #39 ;
+INFO  17:51:26,818 - #46 bodovi
+INFO  17:51:26,818 - #38 --
+INFO  17:51:26,818 - #39 ;
+INFO  17:51:26,818 - #11 print
+INFO  17:51:26,818 - #5 (
+INFO  17:51:26,818 - #46 bodovi
+ERROR 17:51:26,818 - Izvrsen oporavak do ; u liniji 19
+INFO  17:51:26,818 - #6 )
+INFO  17:51:26,818 - #39 ;
+INFO  17:51:26,818 - #46 niz
+INFO  17:51:26,818 - #9 =
+INFO  17:51:26,818 - #18 new
+ERROR 17:51:26,818 - 
+Sintaksna greska na liniji 24
+INFO  17:51:26,818 - #46 int
+INFO  17:51:26,819 - #7 [
+INFO  17:51:26,819 - #45 3
+INFO  17:51:26,819 - #8 ]
+INFO  17:51:26,819 - #39 ;
+INFO  17:51:26,819 - #46 niz
+INFO  17:51:26,819 - #7 [
+INFO  17:51:26,819 - #46 nula
+INFO  17:51:26,819 - #8 ]
+INFO  17:51:26,819 - #9 =
+INFO  17:51:26,819 - #46 jedan
+INFO  17:51:26,819 - #39 ;
+INFO  17:51:26,819 - #46 niz
+INFO  17:51:26,819 - #7 [
+INFO  17:51:26,819 - #45 1
+INFO  17:51:26,819 - #8 ]
+INFO  17:51:26,819 - #9 =
+INFO  17:51:26,819 - #45 2
+INFO  17:51:26,819 - #39 ;
+INFO  17:51:26,819 - #46 niz
+INFO  17:51:26,819 - #7 [
+INFO  17:51:26,819 - #46 niz
+INFO  17:51:26,819 - #7 [
+INFO  17:51:26,819 - #46 jedan
+INFO  17:51:26,819 - #8 ]
+INFO  17:51:26,820 - #8 ]
+INFO  17:51:26,820 - #9 =
+INFO  17:51:26,820 - #46 niz
+INFO  17:51:26,820 - #7 [
+INFO  17:51:26,820 - #46 niz
+INFO  17:51:26,820 - #7 [
+INFO  17:51:26,820 - #45 0
+INFO  17:51:26,820 - #8 ]
+INFO  17:51:26,820 - #8 ]
+INFO  17:51:26,820 - #26 *
+INFO  17:51:26,820 - #45 3
+INFO  17:51:26,820 - #39 ;
+INFO  17:51:26,820 - #46 bodovi
+INFO  17:51:26,820 - #9 =
+INFO  17:51:26,820 - #46 niz
+ERROR 17:51:26,820 - Izvrsen oporavak do ; u liniji 24
+INFO  17:51:26,820 - #7 [
+ERROR 17:51:26,820 - 
+Sintaksna greska na liniji 28
+INFO  17:51:26,820 - #45 2
+INFO  17:51:26,820 - #8 ]
+INFO  17:51:26,820 - #27 /
+INFO  17:51:26,820 - #46 niz
+INFO  17:51:26,820 - #7 [
+INFO  17:51:26,820 - #45 0
+INFO  17:51:26,820 - #8 ]
+INFO  17:51:26,821 - #39 ;
+INFO  17:51:26,821 - #11 print
+INFO  17:51:26,821 - #5 (
+INFO  17:51:26,821 - #46 bodovi
+ERROR 17:51:26,821 - Izvrsen oporavak do ; u liniji 28
+INFO  17:51:26,970 - #6 )
+INFO  17:51:26,970 - #39 ;
+INFO  17:51:26,970 - #11 print
+INFO  17:51:26,970 - #5 (
+INFO  17:51:26,970 - #46 niz
+INFO  17:51:26,970 - #7 [
+ERROR 17:51:26,970 - 
+Sintaksna greska na liniji 30
+INFO  17:51:26,971 - #45 2
+INFO  17:51:26,971 - #8 ]
+INFO  17:51:26,971 - #6 )
+INFO  17:51:26,971 - #39 ;
+INFO  17:51:26,972 - #11 print
+INFO  17:51:26,972 - #5 (
+INFO  17:51:26,972 - #46 niz
+ERROR 17:51:26,972 - Izvrsen oporavak do ; u liniji 30
+INFO  17:51:26,972 - #42 .
+ERROR 17:51:26,972 - 
+Sintaksna greska na liniji 32
+INFO  17:51:26,972 - #46 findAny
+INFO  17:51:26,973 - #5 (
+INFO  17:51:26,973 - #46 jedan
+INFO  17:51:26,973 - #24 +
+INFO  17:51:26,973 - #46 pet
+INFO  17:51:26,973 - #6 )
+INFO  17:51:26,974 - #6 )
+INFO  17:51:26,974 - #39 ;
+INFO  17:51:26,974 - #46 nizch
+INFO  17:51:26,974 - #9 =
+INFO  17:51:26,974 - #18 new
+ERROR 17:51:26,974 - Izvrsen oporavak do ; u liniji 32
+ERROR 17:51:26,975 - 
+Sintaksna greska na liniji 35
+INFO  17:51:26,975 - #46 char
+INFO  17:51:26,975 - #7 [
+INFO  17:51:26,975 - #45 3
+INFO  17:51:26,975 - #8 ]
+INFO  17:51:26,975 - #39 ;
+INFO  17:51:26,975 - #46 nizch
+INFO  17:51:26,975 - #7 [
+INFO  17:51:26,975 - #45 0
+INFO  17:51:26,975 - #8 ]
+INFO  17:51:26,975 - #9 =
+INFO  17:51:26,975 - #44 a
+INFO  17:51:26,975 - #39 ;
+INFO  17:51:26,976 - #46 nizch
+INFO  17:51:26,976 - #7 [
+INFO  17:51:26,976 - #46 jedan
+INFO  17:51:26,976 - #8 ]
+INFO  17:51:26,976 - #9 =
+INFO  17:51:26,976 - #44 b
+INFO  17:51:26,976 - #39 ;
+INFO  17:51:26,976 - #46 nizch
+INFO  17:51:26,976 - #7 [
+INFO  17:51:26,976 - #46 pet
+INFO  17:51:26,976 - #25 -
+INFO  17:51:26,976 - #45 3
+INFO  17:51:26,976 - #8 ]
+INFO  17:51:26,976 - #9 =
+INFO  17:51:26,976 - #44 c
+INFO  17:51:26,976 - #39 ;
+INFO  17:51:26,976 - #11 print
+INFO  17:51:26,976 - #5 (
+INFO  17:51:26,977 - #46 nizch
+ERROR 17:51:26,977 - Izvrsen oporavak do ; u liniji 35
+INFO  17:51:26,977 - #7 [
+ERROR 17:51:26,977 - 
+Sintaksna greska na liniji 39
+INFO  17:51:26,977 - #45 1
+INFO  17:51:26,977 - #8 ]
+INFO  17:51:26,977 - #6 )
+INFO  17:51:26,977 - #39 ;
+INFO  17:51:26,977 - #11 print
+INFO  17:51:26,977 - #5 (
+INFO  17:51:26,977 - #46 nizch
+ERROR 17:51:26,977 - Izvrsen oporavak do ; u liniji 39
+INFO  17:51:26,977 - #7 [
+ERROR 17:51:26,977 - 
+Sintaksna greska na liniji 40
+INFO  17:51:26,977 - #46 jedan
+INFO  17:51:26,977 - #26 *
+INFO  17:51:26,977 - #45 2
+INFO  17:51:26,977 - #8 ]
+INFO  17:51:26,977 - #6 )
+INFO  17:51:26,977 - #39 ;
+INFO  17:51:26,977 - #19 read
+INFO  17:51:26,977 - #5 (
+INFO  17:51:26,977 - #46 bodovi
+INFO  17:51:26,977 - #6 )
+INFO  17:51:26,977 - #39 ;
+INFO  17:51:26,977 - #46 bodovi
+INFO  17:51:26,977 - #9 =
+INFO  17:51:26,977 - #25 -
+ERROR 17:51:26,978 - Izvrsen oporavak do ; u liniji 40
+ERROR 17:51:26,978 - 
+Sintaksna greska na liniji 44
+INFO  17:51:26,978 - #46 bodovi
+INFO  17:51:26,978 - #24 +
+INFO  17:51:26,978 - #5 (
+INFO  17:51:26,978 - #46 pet
+INFO  17:51:26,978 - #26 *
+INFO  17:51:26,978 - #46 a
+INFO  17:51:26,978 - #27 /
+INFO  17:51:26,978 - #45 2
+INFO  17:51:26,978 - #25 -
+INFO  17:51:26,978 - #46 jedan
+INFO  17:51:26,978 - #6 )
+INFO  17:51:26,978 - #26 *
+INFO  17:51:26,978 - #46 bodovi
+INFO  17:51:26,978 - #25 -
+INFO  17:51:26,978 - #5 (
+INFO  17:51:26,978 - #45 3
+INFO  17:51:26,978 - #28 %
+INFO  17:51:26,978 - #45 2
+INFO  17:51:26,979 - #24 +
+INFO  17:51:26,979 - #45 3
+INFO  17:51:26,979 - #26 *
+INFO  17:51:26,979 - #45 2
+INFO  17:51:26,979 - #25 -
+INFO  17:51:26,979 - #45 3
+INFO  17:51:26,979 - #6 )
+INFO  17:51:26,979 - #39 ;
+INFO  17:51:26,979 - #11 print
+INFO  17:51:26,979 - #5 (
+INFO  17:51:26,979 - #46 bodovi
+ERROR 17:51:26,979 - Izvrsen oporavak do ; u liniji 44
+INFO  17:51:26,979 - #6 )
+INFO  17:51:26,980 - #39 ;
+INFO  17:51:26,980 - #4 }
+INFO  17:51:26,980 - #4 }
+INFO  17:51:27,005 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        ConstDeclarations(
+          ConstDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+                SingleConstDecl(
+                 nula
+                  ConstNum(
+                   0
+                  ) [ConstNum]
+                ) [SingleConstDecl]
+              ) [SingleConstDeclaration]
+            ) [ConstDecl]
+          ) [ConstDeclarations]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+              SingleConstDecl(
+               jedan
+                ConstNum(
+                 1
+                ) [ConstNum]
+              ) [SingleConstDecl]
+            ) [SingleConstDeclaration]
+          ) [ConstDecl]
+        ) [ConstDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            SingleConstDecl(
+             pet
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [SingleConstDecl]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              SingleVarDeclaration(
+                ArrayVarDecl(
+                 niz
+                ) [ArrayVarDecl]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               niz2
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+            SingleVarDeclar(
+             a
+            ) [SingleVarDeclar]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           b
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         nizch
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    NoStmt(
+                                    ) [NoStmt]
+                                    MatchedStmt(
+                                      Assignment(
+                                        Designator(
+                                         bodovi
+                                        ) [Designator]
+                                        TermExpr(
+                                          Term(
+                                            Const(
+                                             0
+                                            ) [Const]
+                                          ) [Term]
+                                        ) [TermExpr]
+                                      ) [Assignment]
+                                    ) [MatchedStmt]
+                                  ) [Statements]
+                                  MatchedStmt(
+                                    ErrorStmt(
+                                    ) [ErrorStmt]
+                                  ) [MatchedStmt]
+                                ) [Statements]
+                                MatchedStmt(
+                                  Assignment(
+                                    Designator(
+                                     bodovi
+                                    ) [Designator]
+                                    AddExpr(
+                                      TermExpr(
+                                        Term(
+                                          Var(
+                                            Designator(
+                                             bodovi
+                                            ) [Designator]
+                                          ) [Var]
+                                        ) [Term]
+                                      ) [TermExpr]
+                                      Addop(
+                                      ) [Addop]
+                                      Term(
+                                        Var(
+                                          Designator(
+                                           jedan
+                                          ) [Designator]
+                                        ) [Var]
+                                      ) [Term]
+                                    ) [AddExpr]
+                                  ) [Assignment]
+                                ) [MatchedStmt]
+                              ) [Statements]
+                              MatchedStmt(
+                                ErrorStmt(
+                                ) [ErrorStmt]
+                              ) [MatchedStmt]
+                            ) [Statements]
+                            MatchedStmt(
+                              PrintStmt(
+                                TermExpr(
+                                  Term(
+                                    Var(
+                                      Designator(
+                                       bodovi
+                                      ) [Designator]
+                                    ) [Var]
+                                  ) [Term]
+                                ) [TermExpr]
+                              ) [PrintStmt]
+                            ) [MatchedStmt]
+                          ) [Statements]
+                          MatchedStmt(
+                            ErrorStmt(
+                            ) [ErrorStmt]
+                          ) [MatchedStmt]
+                        ) [Statements]
+                        MatchedStmt(
+                          ErrorStmt(
+                          ) [ErrorStmt]
+                        ) [MatchedStmt]
+                      ) [Statements]
+                      MatchedStmt(
+                        PrintStmt(
+                          TermExpr(
+                            Term(
+                              Var(
+                                Designator(
+                                 bodovi
+                                ) [Designator]
+                              ) [Var]
+                            ) [Term]
+                          ) [TermExpr]
+                        ) [PrintStmt]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      ErrorStmt(
+                      ) [ErrorStmt]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    ErrorStmt(
+                    ) [ErrorStmt]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  ErrorStmt(
+                  ) [ErrorStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                ErrorStmt(
+                ) [ErrorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              ErrorStmt(
+              ) [ErrorStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Var(
+                  Designator(
+                   bodovi
+                  ) [Designator]
+                ) [Var]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:51:27,006 - ===============
+ERROR 17:51:27,009 - Greska na liniji 16: ime bodovi nije deklarisano!
+ERROR 17:51:27,009 - Greska na liniji 16:nekompatibilni tipovi u dodeli vrednosti!
+ERROR 17:51:27,009 - Greska na liniji 18: ime bodovi nije deklarisano!
+ERROR 17:51:27,009 - Greska na liniji 18: ime bodovi nije deklarisano!
+ERROR 17:51:27,009 - Greska na liniji 18: ime jedan nije deklarisano!
+ERROR 17:51:27,009 - Greska na liniji 18 :nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 17:51:27,009 - Greska na liniji 21: ime bodovi nije deklarisano!
+ERROR 17:51:27,009 - Semanticka greska na liniji 21: Operand instrukcije PRINT mora biti char ili int tipa
+ERROR 17:51:27,009 - Greska na liniji 29: ime bodovi nije deklarisano!
+ERROR 17:51:27,009 - Semanticka greska na liniji 29: Operand instrukcije PRINT mora biti char ili int tipa
+ERROR 17:51:27,009 - Greska na liniji 45: ime bodovi nije deklarisano!
+ERROR 17:51:27,010 - Semanticka greska na liniji 45: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  17:51:27,010 - Print count calls = 3
+INFO  17:51:27,010 - Deklarisanih promenljivih ima = 0
+INFO  17:51:27,010 - ===============
+ERROR 17:51:27,011 - Parsiranje NIJE uspesno zavrseno

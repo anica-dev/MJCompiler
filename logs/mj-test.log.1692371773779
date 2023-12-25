@@ -1,0 +1,10 @@
+INFO  17:15:53,934 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:15:53,956 - #2 program
+INFO  17:15:53,956 - #46 MJProgram
+INFO  17:15:53,956 - #15 const
+INFO  17:15:53,957 - #46 int
+INFO  17:15:53,957 - #46 x
+INFO  17:15:53,957 - #39 ;
+ERROR 17:15:53,957 - 
+Sintaksna greska na liniji 4
+ERROR 17:15:53,957 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

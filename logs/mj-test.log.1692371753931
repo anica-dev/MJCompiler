@@ -1,0 +1,89 @@
+INFO  16:52:57,182 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  16:52:57,205 - #2 program
+INFO  16:52:57,205 - #46 MJProgram
+INFO  16:52:57,205 - #46 int
+INFO  16:52:57,206 - #46 x
+INFO  16:52:57,207 - #39 ;
+INFO  16:52:57,207 - #46 int
+INFO  16:52:57,208 - #46 y
+INFO  16:52:57,209 - #39 ;
+INFO  16:52:57,209 - #46 int
+INFO  16:52:57,209 - #46 niz
+INFO  16:52:57,209 - #7 [
+INFO  16:52:57,209 - #8 ]
+INFO  16:52:57,209 - #41 ,
+INFO  16:52:57,209 - #46 niz2
+INFO  16:52:57,209 - #7 [
+INFO  16:52:57,210 - #8 ]
+INFO  16:52:57,210 - #41 ,
+INFO  16:52:57,210 - #46 a
+INFO  16:52:57,210 - #41 ,
+INFO  16:52:57,210 - #46 b
+INFO  16:52:57,210 - #39 ;
+INFO  16:52:57,210 - #3 {
+INFO  16:52:57,230 - #4 }
+INFO  16:52:57,238 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          SingleVarDeclar(
+           y
+          ) [SingleVarDeclar]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            SingleVarDeclaration(
+              ArrayVarDecl(
+               niz
+              ) [ArrayVarDecl]
+            ) [SingleVarDeclaration]
+            ArrayVarDecl(
+             niz2
+            ) [ArrayVarDecl]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           a
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+        SingleVarDeclar(
+         b
+        ) [SingleVarDeclar]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  16:52:57,238 - ===============
+INFO  16:52:57,241 - Print count calls = 0
+INFO  16:52:57,241 - Deklarisanih promenljivih ima = 0
+INFO  16:52:57,241 - ===============
+INFO  16:52:57,245 - Parsiranje uspesno zavrseno

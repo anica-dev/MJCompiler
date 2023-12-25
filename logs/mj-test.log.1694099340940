@@ -1,0 +1,177 @@
+INFO  16:59:16,908 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  16:59:16,936 - #2 program
+INFO  16:59:16,936 - #48 Keske
+INFO  16:59:16,936 - #15 const
+INFO  16:59:16,937 - #48 int
+INFO  16:59:16,937 - #48 pi
+INFO  16:59:16,938 - #9 =
+INFO  16:59:16,938 - #47 13
+INFO  16:59:16,938 - #41 ;
+INFO  16:59:16,939 - #48 char
+INFO  16:59:16,939 - #48 x
+INFO  16:59:16,939 - #43 ,
+INFO  16:59:16,939 - #48 y
+INFO  16:59:16,940 - #7 [
+INFO  16:59:16,940 - #8 ]
+INFO  16:59:16,940 - #41 ;
+INFO  16:59:16,940 - #15 const
+INFO  16:59:16,941 - #48 bool
+INFO  16:59:16,941 - #48 t
+INFO  16:59:16,941 - #9 =
+INFO  16:59:16,941 - #45 1
+INFO  16:59:16,941 - #41 ;
+INFO  16:59:16,942 - #3 {
+INFO  16:59:16,942 - #12 void
+INFO  16:59:16,943 - #48 main
+INFO  16:59:16,943 - #5 (
+INFO  16:59:16,943 - #6 )
+INFO  16:59:16,944 - #48 int
+INFO  16:59:16,944 - #48 bodovi
+INFO  16:59:16,944 - #43 ,
+INFO  16:59:16,944 - #48 b
+INFO  16:59:16,944 - #7 [
+INFO  16:59:16,944 - #8 ]
+INFO  16:59:16,945 - #41 ;
+INFO  16:59:16,945 - #48 int
+INFO  16:59:16,945 - #48 z
+INFO  16:59:16,945 - #7 [
+INFO  16:59:16,945 - #8 ]
+INFO  16:59:16,945 - #41 ;
+INFO  16:59:16,945 - #3 {
+INFO  16:59:16,945 - #11 print
+INFO  16:59:16,945 - #5 (
+INFO  16:59:16,945 - #48 x
+INFO  16:59:16,946 - #7 [
+INFO  16:59:16,947 - #47 5
+INFO  16:59:16,947 - #8 ]
+INFO  16:59:16,947 - #6 )
+INFO  16:59:16,947 - #41 ;
+INFO  16:59:16,947 - #4 }
+INFO  16:59:16,948 - #4 }
+INFO  16:59:16,949 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             z
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatement(
+          TermExpr(
+            JustTerm(
+              FactorDes(
+                DesignatorArray(
+                  DesignatorArrName(
+                   x
+                  ) [DesignatorArrName]
+                  TermExpr(
+                    JustTerm(
+                      FactorNum(
+                       5
+                      ) [FactorNum]
+                    ) [JustTerm]
+                  ) [TermExpr]
+                ) [DesignatorArray]
+              ) [FactorDes]
+            ) [JustTerm]
+          ) [TermExpr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:59:16,950 - ===================================
+ERROR 16:59:16,956 - Indeksiranje vrednoscu koja nije int!  na liniji 11
+ERROR 16:59:16,957 - Semanticka greska na liniji 11: Operand instrukcije PRINT mora biti char ili int tipa na liniji 11
+INFO  16:59:16,957 - ===================================
+ERROR 16:59:16,957 - Parsiranje NIJE uspesno zavrseno!

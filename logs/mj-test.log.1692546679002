@@ -1,0 +1,135 @@
+INFO  17:50:03,893 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:50:03,915 - #2 program
+INFO  17:50:03,916 - #46 MJProgram
+INFO  17:50:03,916 - #15 const
+INFO  17:50:03,916 - #46 int
+INFO  17:50:03,916 - #46 x
+INFO  17:50:03,917 - #9 =
+INFO  17:50:03,917 - #45 3
+INFO  17:50:03,917 - #39 ;
+INFO  17:50:03,917 - #46 int
+INFO  17:50:03,918 - #46 niz
+INFO  17:50:03,918 - #7 [
+INFO  17:50:03,918 - #8 ]
+INFO  17:50:03,918 - #41 ,
+INFO  17:50:03,918 - #46 niz2
+INFO  17:50:03,919 - #7 [
+INFO  17:50:03,919 - #8 ]
+INFO  17:50:03,919 - #41 ,
+INFO  17:50:03,919 - #46 a
+INFO  17:50:03,919 - #41 ,
+INFO  17:50:03,919 - #46 b
+INFO  17:50:03,919 - #39 ;
+INFO  17:50:03,919 - #3 {
+INFO  17:50:03,939 - #12 void
+INFO  17:50:03,941 - #46 main
+INFO  17:50:03,941 - #5 (
+INFO  17:50:03,941 - #6 )
+INFO  17:50:03,942 - #3 {
+INFO  17:50:03,943 - #46 int
+INFO  17:50:03,943 - #46 y
+ERROR 17:50:03,943 - 
+Sintaksna greska na liniji 8
+INFO  17:50:03,944 - #9 =
+INFO  17:50:03,944 - #45 3
+INFO  17:50:03,944 - #39 ;
+INFO  17:50:03,944 - #11 print
+INFO  17:50:03,944 - #5 (
+INFO  17:50:03,944 - #46 y
+ERROR 17:50:03,944 - Izvrsen oporavak do ; u liniji 8
+INFO  17:50:03,945 - #6 )
+INFO  17:50:03,945 - #39 ;
+INFO  17:50:03,945 - #4 }
+INFO  17:50:03,945 - #4 }
+INFO  17:50:03,949 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          SingleConstDecl(
+           x
+            ConstNum(
+             3
+            ) [ConstNum]
+          ) [SingleConstDecl]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            SingleVarDeclaration(
+              ArrayVarDecl(
+               niz
+              ) [ArrayVarDecl]
+            ) [SingleVarDeclaration]
+            ArrayVarDecl(
+             niz2
+            ) [ArrayVarDecl]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           a
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+        SingleVarDeclar(
+         b
+        ) [SingleVarDeclar]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarsDeclared(
+      ) [NoVarsDeclared]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Var(
+                  Designator(
+                   y
+                  ) [Designator]
+                ) [Var]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:50:03,949 - ===============
+ERROR 17:50:03,950 - Greska na liniji 9 :ime y nije deklarisano!
+ERROR 17:50:03,950 - Semanticka greska na liniji 9: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  17:50:03,950 - Print count calls = 1
+INFO  17:50:03,950 - Deklarisanih promenljivih ima = 0
+INFO  17:50:03,950 - ===============
+ERROR 17:50:03,950 - Parsiranje NIJE uspesno zavrseno

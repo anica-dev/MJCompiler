@@ -1,0 +1,173 @@
+INFO  17:43:09,941 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:43:09,963 - #2 program
+INFO  17:43:09,963 - #46 MJProgram
+INFO  17:43:09,963 - #15 const
+INFO  17:43:09,964 - #46 int
+INFO  17:43:09,964 - #46 x
+INFO  17:43:09,966 - #9 =
+INFO  17:43:09,966 - #45 3
+INFO  17:43:09,967 - #39 ;
+INFO  17:43:09,968 - #46 int
+INFO  17:43:09,969 - #46 y
+INFO  17:43:09,969 - #39 ;
+INFO  17:43:09,969 - #46 int
+INFO  17:43:09,970 - #46 niz
+INFO  17:43:09,971 - #7 [
+INFO  17:43:09,971 - #8 ]
+INFO  17:43:09,971 - #41 ,
+INFO  17:43:09,971 - #46 niz2
+INFO  17:43:09,971 - #7 [
+INFO  17:43:09,971 - #8 ]
+INFO  17:43:09,971 - #41 ,
+INFO  17:43:09,972 - #46 a
+INFO  17:43:09,972 - #41 ,
+INFO  17:43:09,973 - #46 b
+INFO  17:43:09,973 - #39 ;
+INFO  17:43:09,973 - #3 {
+INFO  17:43:09,973 - #12 void
+INFO  17:43:09,974 - #46 main
+INFO  17:43:09,974 - #5 (
+INFO  17:43:09,974 - #6 )
+INFO  17:43:09,975 - #46 int
+INFO  17:43:09,975 - #46 y
+INFO  17:43:09,975 - #39 ;
+INFO  17:43:09,975 - #3 {
+INFO  17:43:09,975 - #46 y
+INFO  17:43:09,976 - #9 =
+INFO  17:43:09,978 - #45 3
+INFO  17:43:09,978 - #39 ;
+INFO  17:43:09,978 - #11 print
+INFO  17:43:09,978 - #5 (
+INFO  17:43:09,978 - #46 y
+INFO  17:43:09,978 - #6 )
+INFO  17:43:09,978 - #39 ;
+INFO  17:43:09,978 - #4 }
+INFO  17:43:09,979 - #4 }
+INFO  17:43:09,988 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            SingleConstDecl(
+             x
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [SingleConstDecl]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          SingleVarDeclar(
+           y
+          ) [SingleVarDeclar]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            SingleVarDeclaration(
+              ArrayVarDecl(
+               niz
+              ) [ArrayVarDecl]
+            ) [SingleVarDeclaration]
+            ArrayVarDecl(
+             niz2
+            ) [ArrayVarDecl]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           a
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+        SingleVarDeclar(
+         b
+        ) [SingleVarDeclar]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             y
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               y
+              ) [Designator]
+              TermExpr(
+                Term(
+                  Const(
+                   3
+                  ) [Const]
+                ) [Term]
+              ) [TermExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Var(
+                  Designator(
+                   y
+                  ) [Designator]
+                ) [Var]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:43:09,988 - ===============
+ERROR 17:43:09,990 - Greska na liniji 9 :ime y nije deklarisano!
+ERROR 17:43:09,991 - Greska na liniji 9:nekompatibilni tipovi u dodeli vrednosti!
+ERROR 17:43:09,991 - Greska na liniji 10 :ime y nije deklarisano!
+ERROR 17:43:09,991 - Semanticka greska na liniji 10: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  17:43:09,991 - Print count calls = 1
+INFO  17:43:09,991 - Deklarisanih promenljivih ima = 0
+INFO  17:43:09,991 - ===============
+ERROR 17:43:09,991 - Parsiranje NIJE uspesno zavrseno

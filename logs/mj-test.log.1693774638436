@@ -1,0 +1,113 @@
+INFO  21:51:48,915 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  21:51:48,950 - #2 program
+INFO  21:51:48,950 - #48 Keske
+INFO  21:51:48,950 - #15 const
+INFO  21:51:48,951 - #48 int
+INFO  21:51:48,951 - #48 pi
+INFO  21:51:48,951 - #9 =
+INFO  21:51:48,951 - #47 3
+INFO  21:51:48,951 - #41 ;
+INFO  21:51:48,951 - #48 char
+INFO  21:51:48,952 - #48 charr
+INFO  21:51:48,952 - #7 [
+INFO  21:51:48,952 - #8 ]
+INFO  21:51:48,952 - #41 ;
+INFO  21:51:48,952 - #3 {
+INFO  21:51:48,953 - #12 void
+INFO  21:51:48,954 - #48 main
+INFO  21:51:48,954 - #5 (
+INFO  21:51:48,954 - #6 )
+INFO  21:51:48,955 - #48 int
+INFO  21:51:48,955 - #48 bodovi
+INFO  21:51:48,955 - #41 ;
+INFO  21:51:48,955 - #3 {
+INFO  21:51:48,956 - #48 a
+INFO  21:51:48,956 - #9 =
+INFO  21:51:48,956 - #48 b
+INFO  21:51:48,960 - #41 ;
+INFO  21:51:48,960 - #4 }
+INFO  21:51:48,960 - #4 }
+INFO  21:51:48,962 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+         pi
+          ConstNum(
+           3
+          ) [ConstNum]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         charr
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExpr(
+              DesignatorNoArr(
+               a
+              ) [DesignatorNoArr]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              TermExpr(
+                JustTerm(
+                  FactorVar(
+                    DesignatorNoArr(
+                     b
+                    ) [DesignatorNoArr]
+                  ) [FactorVar]
+                ) [JustTerm]
+              ) [TermExpr]
+            ) [DesStatAssignopExpr]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:51:48,962 - ===================================
+INFO  21:51:48,967 - ===================================
+INFO  21:51:48,967 - Parsiranje uspesno zavrseno!

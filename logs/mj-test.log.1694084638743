@@ -1,0 +1,161 @@
+INFO  12:28:59,740 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  12:28:59,773 - #2 program
+INFO  12:28:59,773 - #48 Keske
+INFO  12:28:59,773 - #15 const
+INFO  12:28:59,773 - #48 int
+INFO  12:28:59,774 - #48 pi
+INFO  12:28:59,774 - #9 =
+INFO  12:28:59,774 - #47 13
+INFO  12:28:59,774 - #41 ;
+INFO  12:28:59,775 - #48 char
+INFO  12:28:59,776 - #48 x
+INFO  12:28:59,776 - #43 ,
+INFO  12:28:59,776 - #48 y
+INFO  12:28:59,776 - #7 [
+INFO  12:28:59,776 - #8 ]
+INFO  12:28:59,777 - #41 ;
+INFO  12:28:59,777 - #15 const
+INFO  12:28:59,777 - #48 bool
+INFO  12:28:59,778 - #48 t
+INFO  12:28:59,778 - #9 =
+INFO  12:28:59,778 - #45 1
+INFO  12:28:59,778 - #41 ;
+INFO  12:28:59,778 - #3 {
+INFO  12:28:59,778 - #12 void
+INFO  12:28:59,779 - #48 main
+INFO  12:28:59,779 - #5 (
+INFO  12:28:59,779 - #6 )
+INFO  12:28:59,780 - #48 int
+INFO  12:28:59,780 - #48 bodovi
+INFO  12:28:59,780 - #43 ,
+INFO  12:28:59,781 - #48 b
+INFO  12:28:59,781 - #7 [
+INFO  12:28:59,781 - #8 ]
+INFO  12:28:59,781 - #41 ;
+INFO  12:28:59,781 - #48 int
+INFO  12:28:59,781 - #48 x
+INFO  12:28:59,781 - #7 [
+INFO  12:28:59,781 - #8 ]
+INFO  12:28:59,781 - #41 ;
+INFO  12:28:59,781 - #3 {
+INFO  12:28:59,781 - #11 print
+INFO  12:28:59,782 - #5 (
+INFO  12:28:59,782 - #47 3
+INFO  12:28:59,782 - #6 )
+INFO  12:28:59,782 - #41 ;
+INFO  12:28:59,782 - #4 }
+INFO  12:28:59,783 - #4 }
+INFO  12:28:59,786 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             x
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatement(
+          TermExpr(
+            JustTerm(
+              FactorNum(
+               3
+              ) [FactorNum]
+            ) [JustTerm]
+          ) [TermExpr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:28:59,786 - ===================================
+INFO  12:28:59,793 - ===================================
+INFO  12:28:59,797 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,171 @@
+INFO  20:35:42,413 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  20:35:42,516 - #2 program
+INFO  20:35:42,516 - #48 Keske
+INFO  20:35:42,516 - #15 const
+INFO  20:35:42,517 - #48 int
+INFO  20:35:42,518 - #48 pi
+INFO  20:35:42,518 - #9 =
+INFO  20:35:42,518 - #47 13
+INFO  20:35:42,518 - #41 ;
+INFO  20:35:42,520 - #48 char
+INFO  20:35:42,522 - #48 x
+INFO  20:35:42,522 - #43 ,
+INFO  20:35:42,522 - #48 y
+INFO  20:35:42,522 - #7 [
+INFO  20:35:42,522 - #8 ]
+INFO  20:35:42,522 - #41 ;
+INFO  20:35:42,523 - #15 const
+INFO  20:35:42,523 - #48 bool
+INFO  20:35:42,523 - #48 t
+INFO  20:35:42,523 - #9 =
+INFO  20:35:42,524 - #45 1
+INFO  20:35:42,524 - #41 ;
+INFO  20:35:42,524 - #3 {
+INFO  20:35:42,524 - #12 void
+INFO  20:35:42,525 - #48 main
+INFO  20:35:42,525 - #5 (
+INFO  20:35:42,526 - #6 )
+INFO  20:35:42,526 - #48 int
+INFO  20:35:42,527 - #48 bodovi
+INFO  20:35:42,527 - #43 ,
+INFO  20:35:42,527 - #48 b
+INFO  20:35:42,527 - #7 [
+INFO  20:35:42,527 - #8 ]
+INFO  20:35:42,527 - #41 ;
+INFO  20:35:42,527 - #48 int
+INFO  20:35:42,528 - #48 x
+INFO  20:35:42,528 - #7 [
+INFO  20:35:42,528 - #8 ]
+INFO  20:35:42,528 - #41 ;
+INFO  20:35:42,528 - #3 {
+INFO  20:35:42,528 - #48 a
+INFO  20:35:42,528 - #9 =
+INFO  20:35:42,528 - #27 -
+INFO  20:35:42,529 - #47 3
+INFO  20:35:42,529 - #41 ;
+INFO  20:35:42,530 - #4 }
+INFO  20:35:42,530 - #4 }
+INFO  20:35:42,532 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             x
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExpr(
+              DesignatorNoArr(
+               a
+              ) [DesignatorNoArr]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              NegativeExpr(
+                JustTerm(
+                  FactorNum(
+                   3
+                  ) [FactorNum]
+                ) [JustTerm]
+              ) [NegativeExpr]
+            ) [DesStatAssignopExpr]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:35:42,532 - ===================================
+ERROR 20:35:42,541 - Pristupa se nedefinisanoj promenljivoj a na liniji 11
+INFO  20:35:42,542 - ===================================
+ERROR 20:35:42,542 - Parsiranje NIJE uspesno zavrseno!

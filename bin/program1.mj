@@ -1,0 +1,32 @@
+program Proba
+
+	const int pi = 13;
+	
+	int x, y;
+	int niz[];
+	const bool t = true;
+{
+	void main()	
+		int bodovi,b[];int a;
+	{
+		x=3;
+		print(1);
+		print(x);
+		
+		y= 4+9;
+		print(y);
+		
+		//niz = new int[3];
+		//niz[1] = 2;	
+		//print(2);
+		
+		//a=3+niz[1]*2;
+		
+		//t=false;
+		//x=null;
+	}
+}
+
+
+
+

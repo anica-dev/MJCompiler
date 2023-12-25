@@ -1,0 +1,56 @@
+INFO  12:34:38,028 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  12:34:38,041 - #2 program
+INFO  12:34:38,041 - #15 MJProgram
+INFO  12:34:38,042 - #15 int
+INFO  12:34:38,042 - #15 x
+INFO  12:34:38,043 - #5 ;
+INFO  12:34:38,043 - #15 int
+INFO  12:34:38,044 - #15 y
+INFO  12:34:38,044 - #5 ;
+INFO  12:34:38,044 - #3 {
+INFO  12:34:38,044 - #15 int
+INFO  12:34:38,045 - #15 main
+INFO  12:34:38,045 - #6 (
+INFO  12:34:38,045 - #7 )
+INFO  12:34:38,046 - #3 {
+INFO  12:34:38,046 - #4 }
+INFO  12:34:38,046 - #4 }
+INFO  12:34:38,048 - Program(
+ MJProgram
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     y
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:34:38,049 - ===============
+INFO  12:34:38,050 - Print count calls = 0

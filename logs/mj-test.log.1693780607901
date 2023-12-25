@@ -1,0 +1,114 @@
+INFO  00:36:25,091 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  00:36:25,120 - #2 program
+INFO  00:36:25,120 - #48 Keske
+INFO  00:36:25,120 - #15 const
+INFO  00:36:25,121 - #48 int
+INFO  00:36:25,121 - #48 pi
+INFO  00:36:25,122 - #9 =
+INFO  00:36:25,122 - #47 3
+INFO  00:36:25,122 - #41 ;
+INFO  00:36:25,122 - #48 char
+INFO  00:36:25,122 - #48 charr
+INFO  00:36:25,123 - #7 [
+INFO  00:36:25,123 - #8 ]
+INFO  00:36:25,123 - #41 ;
+INFO  00:36:25,123 - #3 {
+INFO  00:36:25,123 - #12 void
+INFO  00:36:25,124 - #48 main
+INFO  00:36:25,124 - #5 (
+INFO  00:36:25,124 - #6 )
+INFO  00:36:25,124 - #48 byte
+INFO  00:36:25,125 - #48 bodovi
+INFO  00:36:25,125 - #41 ;
+INFO  00:36:25,125 - #3 {
+INFO  00:36:25,125 - #48 a
+INFO  00:36:25,126 - #9 =
+INFO  00:36:25,126 - #48 b
+INFO  00:36:25,126 - #41 ;
+INFO  00:36:25,128 - #4 }
+INFO  00:36:25,128 - #4 }
+INFO  00:36:25,130 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+         pi
+          ConstNum(
+           3
+          ) [ConstNum]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         charr
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           byte
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExpr(
+              DesignatorNoArr(
+               a
+              ) [DesignatorNoArr]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              TermExpr(
+                JustTerm(
+                  FactorVar(
+                    DesignatorNoArr(
+                     b
+                    ) [DesignatorNoArr]
+                  ) [FactorVar]
+                ) [JustTerm]
+              ) [TermExpr]
+            ) [DesStatAssignopExpr]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:36:25,130 - ===================================
+ERROR 00:36:25,136 - Nije pronadjen tip byte u tabeli simbola!
+INFO  00:36:25,136 - ===================================
+ERROR 00:36:25,136 - Parsiranje NIJE uspesno zavrseno!

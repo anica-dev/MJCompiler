@@ -1,0 +1,158 @@
+INFO  17:42:02,239 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:42:02,265 - #2 program
+INFO  17:42:02,265 - #46 MJProgram
+INFO  17:42:02,265 - #15 const
+INFO  17:42:02,266 - #46 int
+INFO  17:42:02,266 - #46 x
+INFO  17:42:02,266 - #9 =
+INFO  17:42:02,267 - #45 3
+INFO  17:42:02,267 - #39 ;
+INFO  17:42:02,267 - #46 int
+INFO  17:42:02,268 - #46 y
+INFO  17:42:02,268 - #39 ;
+INFO  17:42:02,268 - #46 int
+INFO  17:42:02,270 - #46 niz
+INFO  17:42:02,270 - #7 [
+INFO  17:42:02,270 - #8 ]
+INFO  17:42:02,271 - #41 ,
+INFO  17:42:02,271 - #46 niz2
+INFO  17:42:02,271 - #7 [
+INFO  17:42:02,271 - #8 ]
+INFO  17:42:02,271 - #41 ,
+INFO  17:42:02,272 - #46 a
+INFO  17:42:02,272 - #41 ,
+INFO  17:42:02,275 - #46 b
+INFO  17:42:02,275 - #39 ;
+INFO  17:42:02,275 - #3 {
+INFO  17:42:02,275 - #12 void
+INFO  17:42:02,277 - #46 main
+INFO  17:42:02,277 - #5 (
+INFO  17:42:02,277 - #6 )
+INFO  17:42:02,278 - #3 {
+INFO  17:42:02,278 - #46 y
+INFO  17:42:02,279 - #9 =
+INFO  17:42:02,279 - #45 3
+INFO  17:42:02,279 - #39 ;
+INFO  17:42:02,280 - #11 print
+INFO  17:42:02,280 - #5 (
+INFO  17:42:02,280 - #46 y
+INFO  17:42:02,280 - #6 )
+INFO  17:42:02,280 - #39 ;
+INFO  17:42:02,280 - #4 }
+INFO  17:42:02,280 - #4 }
+INFO  17:42:02,286 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            SingleConstDecl(
+             x
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [SingleConstDecl]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          SingleVarDeclar(
+           y
+          ) [SingleVarDeclar]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            SingleVarDeclaration(
+              ArrayVarDecl(
+               niz
+              ) [ArrayVarDecl]
+            ) [SingleVarDeclaration]
+            ArrayVarDecl(
+             niz2
+            ) [ArrayVarDecl]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           a
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+        SingleVarDeclar(
+         b
+        ) [SingleVarDeclar]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarsDeclared(
+      ) [NoVarsDeclared]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               y
+              ) [Designator]
+              TermExpr(
+                Term(
+                  Const(
+                   3
+                  ) [Const]
+                ) [Term]
+              ) [TermExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Var(
+                  Designator(
+                   y
+                  ) [Designator]
+                ) [Var]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:42:02,286 - ===============
+ERROR 17:42:02,290 - Greska na liniji 9 :imey nije deklarisano!
+ERROR 17:42:02,292 - Greska na liniji 9:nekompatibilni tipovi u dodeli vrednosti!
+ERROR 17:42:02,292 - Greska na liniji 10 :imey nije deklarisano!
+ERROR 17:42:02,292 - Semanticka greska na liniji 10: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  17:42:02,293 - Print count calls = 1
+INFO  17:42:02,293 - Deklarisanih promenljivih ima = 0
+INFO  17:42:02,293 - ===============
+ERROR 17:42:02,293 - Parsiranje NIJE uspesno zavrseno

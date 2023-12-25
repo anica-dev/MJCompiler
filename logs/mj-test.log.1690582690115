@@ -1,0 +1,111 @@
+INFO  23:41:37,392 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  23:41:37,436 - #2 program
+INFO  23:41:37,436 - #15 MJProgram
+INFO  23:41:37,436 - #15 int
+INFO  23:41:37,438 - #15 x
+INFO  23:41:37,438 - #5 ;
+INFO  23:41:37,438 - #15 int
+INFO  23:41:37,440 - #15 y
+INFO  23:41:37,440 - #5 ;
+INFO  23:41:37,440 - #3 {
+INFO  23:41:37,440 - #15 int
+INFO  23:41:37,441 - #15 main
+INFO  23:41:37,441 - #6 (
+INFO  23:41:37,441 - #7 )
+INFO  23:41:37,441 - #3 {
+INFO  23:41:37,441 - #12 print
+INFO  23:41:37,442 - #6 (
+INFO  23:41:37,442 - #14 1
+INFO  23:41:37,442 - #7 )
+INFO  23:41:37,443 - #5 ;
+INFO  23:41:37,443 - #15 x
+INFO  23:41:37,443 - #8 =
+INFO  23:41:37,444 - #15 y
+INFO  23:41:37,444 - #10 +
+INFO  23:41:37,444 - #14 5
+INFO  23:41:37,445 - #10 +
+INFO  23:41:37,445 - #5 ;
+ERROR 23:41:37,445 - 
+Sintaksna greska na liniji 8
+INFO  23:41:37,445 - #12 print
+INFO  23:41:37,445 - #6 (
+INFO  23:41:37,445 - #14 2
+ERROR 23:41:37,446 - Izvrsen oporavak do ; u liniji 8
+INFO  23:41:37,447 - #7 )
+INFO  23:41:37,447 - #5 ;
+INFO  23:41:37,447 - #4 }
+INFO  23:41:37,447 - #4 }
+INFO  23:41:37,449 - Program(
+ MJProgram
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     y
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  Term(
+                    Const(
+                     1
+                    ) [Const]
+                  ) [Term]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Const(
+                 2
+                ) [Const]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:41:37,449 - ===============
+INFO  23:41:37,462 - Prepoznata naredba print!
+INFO  23:41:37,462 - Prepoznata naredba print!
+INFO  23:41:37,462 - Print count calls = 2
+INFO  23:41:37,462 - Deklarisanih promenljivih ima = 2

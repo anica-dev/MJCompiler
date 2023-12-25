@@ -1,0 +1,164 @@
+INFO  20:36:36,954 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  20:36:36,989 - #2 program
+INFO  20:36:36,989 - #48 Keske
+INFO  20:36:36,989 - #15 const
+INFO  20:36:36,989 - #48 int
+INFO  20:36:36,989 - #48 pi
+INFO  20:36:36,990 - #9 =
+INFO  20:36:36,990 - #47 13
+INFO  20:36:36,990 - #41 ;
+INFO  20:36:36,992 - #48 char
+INFO  20:36:36,992 - #48 x
+INFO  20:36:36,992 - #43 ,
+INFO  20:36:36,993 - #48 y
+INFO  20:36:36,993 - #7 [
+INFO  20:36:36,993 - #8 ]
+INFO  20:36:36,993 - #41 ;
+INFO  20:36:36,993 - #15 const
+INFO  20:36:36,994 - #48 bool
+INFO  20:36:36,994 - #48 t
+INFO  20:36:36,994 - #9 =
+INFO  20:36:36,994 - #45 1
+INFO  20:36:36,994 - #41 ;
+INFO  20:36:36,994 - #3 {
+INFO  20:36:36,994 - #12 void
+INFO  20:36:36,995 - #48 main
+INFO  20:36:36,995 - #5 (
+INFO  20:36:36,996 - #6 )
+INFO  20:36:36,998 - #48 int
+INFO  20:36:37,001 - #48 bodovi
+INFO  20:36:37,001 - #43 ,
+INFO  20:36:37,001 - #48 b
+INFO  20:36:37,001 - #7 [
+INFO  20:36:37,001 - #8 ]
+INFO  20:36:37,002 - #41 ;
+INFO  20:36:37,002 - #48 int
+INFO  20:36:37,002 - #48 x
+INFO  20:36:37,002 - #7 [
+INFO  20:36:37,002 - #8 ]
+INFO  20:36:37,002 - #41 ;
+INFO  20:36:37,002 - #3 {
+INFO  20:36:37,002 - #11 print
+INFO  20:36:37,004 - #5 (
+INFO  20:36:37,004 - #48 int
+INFO  20:36:37,004 - #6 )
+INFO  20:36:37,005 - #41 ;
+INFO  20:36:37,005 - #4 }
+INFO  20:36:37,006 - #4 }
+INFO  20:36:37,011 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             x
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatement(
+          TermExpr(
+            JustTerm(
+              FactorVar(
+                DesignatorNoArr(
+                 int
+                ) [DesignatorNoArr]
+              ) [FactorVar]
+            ) [JustTerm]
+          ) [TermExpr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:36:37,011 - ===================================
+ERROR 20:36:37,020 - Promenljiva je neadekvatna: int na liniji 11
+INFO  20:36:37,021 - ===================================
+ERROR 20:36:37,021 - Parsiranje NIJE uspesno zavrseno!

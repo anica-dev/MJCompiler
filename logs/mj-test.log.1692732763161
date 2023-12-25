@@ -1,0 +1,189 @@
+INFO  17:53:51,887 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:53:51,914 - #2 program
+INFO  17:53:51,914 - #46 test301
+INFO  17:53:51,914 - #15 const
+INFO  17:53:51,916 - #46 int
+INFO  17:53:51,916 - #46 nula
+INFO  17:53:51,917 - #9 =
+INFO  17:53:51,917 - #45 0
+INFO  17:53:51,917 - #39 ;
+INFO  17:53:51,917 - #15 const
+INFO  17:53:51,918 - #46 int
+INFO  17:53:51,918 - #46 jedan
+INFO  17:53:51,918 - #9 =
+INFO  17:53:51,918 - #45 1
+INFO  17:53:51,919 - #39 ;
+INFO  17:53:51,919 - #15 const
+INFO  17:53:51,919 - #46 int
+INFO  17:53:51,919 - #46 pet
+INFO  17:53:51,919 - #9 =
+INFO  17:53:51,919 - #45 5
+INFO  17:53:51,919 - #39 ;
+INFO  17:53:51,919 - #46 int
+INFO  17:53:51,920 - #46 niz
+INFO  17:53:51,920 - #7 [
+INFO  17:53:51,920 - #8 ]
+INFO  17:53:51,920 - #41 ,
+INFO  17:53:51,921 - #46 niz2
+INFO  17:53:51,921 - #7 [
+INFO  17:53:51,921 - #8 ]
+INFO  17:53:51,921 - #41 ,
+INFO  17:53:51,921 - #46 a
+INFO  17:53:51,921 - #41 ,
+INFO  17:53:51,921 - #46 b
+INFO  17:53:51,921 - #39 ;
+INFO  17:53:51,921 - #46 char
+INFO  17:53:51,922 - #46 nizch
+INFO  17:53:51,923 - #7 [
+INFO  17:53:51,923 - #8 ]
+INFO  17:53:51,923 - #39 ;
+INFO  17:53:51,923 - #3 {
+INFO  17:53:51,923 - #12 void
+INFO  17:53:51,923 - #46 main
+INFO  17:53:51,924 - #5 (
+INFO  17:53:51,924 - #6 )
+INFO  17:53:51,924 - #46 int
+INFO  17:53:51,925 - #46 bodovi
+INFO  17:53:51,925 - #39 ;
+INFO  17:53:51,925 - #3 {
+INFO  17:53:51,926 - #46 bodovi
+INFO  17:53:51,926 - #9 =
+INFO  17:53:51,926 - #45 0
+INFO  17:53:51,926 - #39 ;
+INFO  17:53:51,926 - #4 }
+INFO  17:53:51,928 - #4 }
+INFO  17:53:51,934 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        ConstDeclarations(
+          ConstDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+               nula
+                ConstNum(
+                 0
+                ) [ConstNum]
+              ) [SingleConstDeclaration]
+            ) [ConstDecl]
+          ) [ConstDeclarations]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+             jedan
+              ConstNum(
+               1
+              ) [ConstNum]
+            ) [SingleConstDeclaration]
+          ) [ConstDecl]
+        ) [ConstDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+           pet
+            ConstNum(
+             5
+            ) [ConstNum]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              SingleVarDeclaration(
+                ArrayVarDecl(
+                 niz
+                ) [ArrayVarDecl]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               niz2
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+            SingleVarDeclar(
+             a
+            ) [SingleVarDeclar]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           b
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         nizch
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          Assignment(
+            Designator(
+             bodovi
+            ) [Designator]
+            TermExpr(
+              Term(
+                Const(
+                 0
+                ) [Const]
+              ) [Term]
+            ) [TermExpr]
+          ) [Assignment]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:53:51,934 - ===============
+ERROR 17:53:51,941 - Greska na liniji 16: ime bodovi nije deklarisano!
+ERROR 17:53:51,941 - Greska na liniji 16:nekompatibilni tipovi u dodeli vrednosti!
+INFO  17:53:51,941 - Print count calls = 0
+INFO  17:53:51,941 - Deklarisanih promenljivih ima = 0
+INFO  17:53:51,941 - ===============
+ERROR 17:53:51,942 - Parsiranje NIJE uspesno zavrseno

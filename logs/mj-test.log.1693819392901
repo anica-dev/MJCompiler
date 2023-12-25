@@ -1,0 +1,116 @@
+INFO  11:22:44,527 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  11:22:44,562 - #2 program
+INFO  11:22:44,562 - #48 Keske
+INFO  11:22:44,562 - #15 const
+INFO  11:22:44,564 - #48 int
+INFO  11:22:44,564 - #48 pi
+INFO  11:22:44,564 - #9 =
+INFO  11:22:44,564 - #46 a
+INFO  11:22:44,564 - #41 ;
+INFO  11:22:44,565 - #48 char
+INFO  11:22:44,566 - #48 charr
+INFO  11:22:44,566 - #7 [
+INFO  11:22:44,566 - #8 ]
+INFO  11:22:44,566 - #41 ;
+INFO  11:22:44,566 - #3 {
+INFO  11:22:44,567 - #12 void
+INFO  11:22:44,567 - #48 main
+INFO  11:22:44,568 - #5 (
+INFO  11:22:44,568 - #6 )
+INFO  11:22:44,568 - #48 int
+INFO  11:22:44,569 - #48 bodovi
+INFO  11:22:44,569 - #41 ;
+INFO  11:22:44,569 - #3 {
+INFO  11:22:44,571 - #48 a
+INFO  11:22:44,571 - #9 =
+INFO  11:22:44,571 - #48 b
+INFO  11:22:44,573 - #41 ;
+INFO  11:22:44,573 - #4 }
+INFO  11:22:44,573 - #4 }
+INFO  11:22:44,581 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          ConstDeclaration(
+           pi
+            ConstChar(
+             a
+            ) [ConstChar]
+          ) [ConstDeclaration]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         charr
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExpr(
+              DesignatorNoArr(
+               a
+              ) [DesignatorNoArr]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              TermExpr(
+                JustTerm(
+                  FactorVar(
+                    DesignatorNoArr(
+                     b
+                    ) [DesignatorNoArr]
+                  ) [FactorVar]
+                ) [JustTerm]
+              ) [TermExpr]
+            ) [DesStatAssignopExpr]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:22:44,581 - ===================================
+ERROR 11:22:44,589 - Neadekvatna dodela konstanti: pi na liniji 3
+INFO  11:22:44,590 - ===================================
+ERROR 11:22:44,590 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,295 @@
+INFO  16:41:55,436 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  16:41:55,473 - #2 program
+INFO  16:41:55,473 - #48 Keske
+INFO  16:41:55,473 - #15 const
+INFO  16:41:55,474 - #48 int
+INFO  16:41:55,474 - #48 pi
+INFO  16:41:55,476 - #9 =
+INFO  16:41:55,476 - #47 13
+INFO  16:41:55,476 - #41 ;
+INFO  16:41:55,477 - #48 int
+INFO  16:41:55,477 - #48 x
+INFO  16:41:55,478 - #41 ;
+INFO  16:41:55,478 - #48 int
+INFO  16:41:55,478 - #48 y
+INFO  16:41:55,478 - #41 ;
+INFO  16:41:55,478 - #48 int
+INFO  16:41:55,479 - #48 niz
+INFO  16:41:55,479 - #7 [
+INFO  16:41:55,479 - #8 ]
+INFO  16:41:55,479 - #41 ;
+INFO  16:41:55,479 - #15 const
+INFO  16:41:55,479 - #48 bool
+INFO  16:41:55,479 - #48 t
+INFO  16:41:55,479 - #9 =
+INFO  16:41:55,479 - #45 1
+INFO  16:41:55,479 - #41 ;
+INFO  16:41:55,480 - #3 {
+INFO  16:41:55,480 - #12 void
+INFO  16:41:55,480 - #48 main
+INFO  16:41:55,480 - #5 (
+INFO  16:41:55,481 - #6 )
+INFO  16:41:55,481 - #48 int
+INFO  16:41:55,482 - #48 bodovi
+INFO  16:41:55,482 - #43 ,
+INFO  16:41:55,482 - #48 b
+INFO  16:41:55,482 - #7 [
+INFO  16:41:55,482 - #8 ]
+INFO  16:41:55,482 - #41 ;
+INFO  16:41:55,482 - #48 int
+INFO  16:41:55,482 - #48 a
+INFO  16:41:55,482 - #41 ;
+INFO  16:41:55,483 - #3 {
+INFO  16:41:55,483 - #48 x
+INFO  16:41:55,483 - #9 =
+INFO  16:41:55,483 - #47 3
+INFO  16:41:55,484 - #41 ;
+INFO  16:41:55,485 - #11 print
+INFO  16:41:55,485 - #5 (
+INFO  16:41:55,485 - #47 1
+INFO  16:41:55,485 - #6 )
+INFO  16:41:55,485 - #41 ;
+INFO  16:41:55,485 - #11 print
+INFO  16:41:55,486 - #5 (
+INFO  16:41:55,486 - #48 x
+INFO  16:41:55,486 - #6 )
+INFO  16:41:55,486 - #41 ;
+INFO  16:41:55,486 - #48 y
+INFO  16:41:55,486 - #9 =
+INFO  16:41:55,486 - #47 4
+INFO  16:41:55,486 - #26 +
+INFO  16:41:55,486 - #47 9
+INFO  16:41:55,487 - #41 ;
+INFO  16:41:55,487 - #11 print
+INFO  16:41:55,487 - #5 (
+INFO  16:41:55,487 - #48 y
+INFO  16:41:55,487 - #6 )
+INFO  16:41:55,487 - #41 ;
+INFO  16:41:55,487 - #4 }
+INFO  16:41:55,488 - #4 }
+INFO  16:41:55,493 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          ConstDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+                ConstDeclaration(
+                 pi
+                  ConstNum(
+                   13
+                  ) [ConstNum]
+                ) [ConstDeclaration]
+              ) [SingleConstDeclaration]
+            ) [ConstDecl]
+          ) [ConstDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVarDeclaration(
+              SingleVarDeclar(
+               x
+              ) [SingleVarDeclar]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             y
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          ArrayVarDecl(
+           niz
+          ) [ArrayVarDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             a
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                DesignatorStat(
+                  DesignatorStatAssign(
+                    DesStatAssignopExpr(
+                      DesignatorNoArr(
+                       x
+                      ) [DesignatorNoArr]
+                      AssignopDerived1(
+                      ) [AssignopDerived1]
+                      Expr(
+                        TermExpr(
+                          JustTerm(
+                            FactorNum(
+                             3
+                            ) [FactorNum]
+                          ) [JustTerm]
+                        ) [TermExpr]
+                      ) [Expr]
+                    ) [DesStatAssignopExpr]
+                  ) [DesignatorStatAssign]
+                ) [DesignatorStat]
+              ) [Statements]
+              PrintStatement(
+                Expr(
+                  TermExpr(
+                    JustTerm(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [JustTerm]
+                  ) [TermExpr]
+                ) [Expr]
+              ) [PrintStatement]
+            ) [Statements]
+            PrintStatement(
+              Expr(
+                TermExpr(
+                  JustTerm(
+                    FactorDes(
+                      DesignatorNoArr(
+                       x
+                      ) [DesignatorNoArr]
+                    ) [FactorDes]
+                  ) [JustTerm]
+                ) [TermExpr]
+              ) [Expr]
+            ) [PrintStatement]
+          ) [Statements]
+          DesignatorStat(
+            DesignatorStatAssign(
+              DesStatAssignopExpr(
+                DesignatorNoArr(
+                 y
+                ) [DesignatorNoArr]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                Expr(
+                  AddExpr(
+                    Expr(
+                      TermExpr(
+                        JustTerm(
+                          FactorNum(
+                           4
+                          ) [FactorNum]
+                        ) [JustTerm]
+                      ) [TermExpr]
+                    ) [Expr]
+                    Add(
+                    ) [Add]
+                    JustTerm(
+                      FactorNum(
+                       9
+                      ) [FactorNum]
+                    ) [JustTerm]
+                  ) [AddExpr]
+                ) [Expr]
+              ) [DesStatAssignopExpr]
+            ) [DesignatorStatAssign]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintStatement(
+          Expr(
+            TermExpr(
+              JustTerm(
+                FactorDes(
+                  DesignatorNoArr(
+                   y
+                  ) [DesignatorNoArr]
+                ) [FactorDes]
+              ) [JustTerm]
+            ) [TermExpr]
+          ) [Expr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:41:55,493 - ===================================
+INFO  16:41:55,500 - Detektovana je konstanta pi na liniji 3
+INFO  16:41:55,500 - Detektovana je globalna promenljiva x na liniji 5
+INFO  16:41:55,500 - Detektovana je globalna promenljiva y na liniji 6
+INFO  16:41:55,500 - Detektovana je konstanta t na liniji 8
+INFO  16:41:55,500 - Detektovana je lokalna promenljiva bodovi na liniji 11
+INFO  16:41:55,500 - Detektovana je lokalna promenljiva a na liniji 11
+INFO  16:41:55,501 - ===================================
+INFO  16:41:55,506 - Parsiranje uspesno zavrseno!

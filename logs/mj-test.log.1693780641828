@@ -1,0 +1,114 @@
+INFO  00:36:47,903 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  00:36:47,933 - #2 program
+INFO  00:36:47,933 - #48 Keske
+INFO  00:36:47,933 - #15 const
+INFO  00:36:47,934 - #48 int
+INFO  00:36:47,934 - #48 pi
+INFO  00:36:47,935 - #9 =
+INFO  00:36:47,935 - #47 3
+INFO  00:36:47,935 - #41 ;
+INFO  00:36:47,935 - #48 char
+INFO  00:36:47,936 - #48 charr
+INFO  00:36:47,936 - #7 [
+INFO  00:36:47,936 - #8 ]
+INFO  00:36:47,936 - #41 ;
+INFO  00:36:47,937 - #3 {
+INFO  00:36:47,938 - #12 void
+INFO  00:36:47,940 - #48 main
+INFO  00:36:47,940 - #5 (
+INFO  00:36:47,940 - #6 )
+INFO  00:36:47,940 - #48 Keske
+INFO  00:36:47,940 - #48 bodovi
+INFO  00:36:47,940 - #41 ;
+INFO  00:36:47,960 - #3 {
+INFO  00:36:47,960 - #48 a
+INFO  00:36:47,961 - #9 =
+INFO  00:36:47,961 - #48 b
+INFO  00:36:47,962 - #41 ;
+INFO  00:36:47,963 - #4 }
+INFO  00:36:47,963 - #4 }
+INFO  00:36:47,965 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+         pi
+          ConstNum(
+           3
+          ) [ConstNum]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         charr
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           Keske
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExpr(
+              DesignatorNoArr(
+               a
+              ) [DesignatorNoArr]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              TermExpr(
+                JustTerm(
+                  FactorVar(
+                    DesignatorNoArr(
+                     b
+                    ) [DesignatorNoArr]
+                  ) [FactorVar]
+                ) [JustTerm]
+              ) [TermExpr]
+            ) [DesStatAssignopExpr]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:36:47,965 - ===================================
+ERROR 00:36:47,971 - Greska: Ime Keske ne predstavlja tip! na liniji 9
+INFO  00:36:47,973 - ===================================
+ERROR 00:36:47,973 - Parsiranje NIJE uspesno zavrseno!

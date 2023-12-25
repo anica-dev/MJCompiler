@@ -1,0 +1,165 @@
+INFO  13:04:19,370 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  13:04:19,410 - #2 program
+INFO  13:04:19,411 - #48 Keske
+INFO  13:04:19,411 - #15 const
+INFO  13:04:19,411 - #48 int
+INFO  13:04:19,411 - #48 pi
+INFO  13:04:19,412 - #9 =
+INFO  13:04:19,412 - #47 13
+INFO  13:04:19,412 - #41 ;
+INFO  13:04:19,412 - #48 char
+INFO  13:04:19,414 - #48 x
+INFO  13:04:19,414 - #43 ,
+INFO  13:04:19,415 - #48 y
+INFO  13:04:19,415 - #7 [
+INFO  13:04:19,415 - #8 ]
+INFO  13:04:19,415 - #41 ;
+INFO  13:04:19,415 - #15 const
+INFO  13:04:19,416 - #48 bool
+INFO  13:04:19,416 - #48 t
+INFO  13:04:19,416 - #9 =
+INFO  13:04:19,416 - #45 1
+INFO  13:04:19,416 - #41 ;
+INFO  13:04:19,416 - #3 {
+INFO  13:04:19,417 - #12 void
+INFO  13:04:19,418 - #48 main
+INFO  13:04:19,418 - #5 (
+INFO  13:04:19,421 - #6 )
+INFO  13:04:19,422 - #48 int
+INFO  13:04:19,423 - #48 bodovi
+INFO  13:04:19,423 - #43 ,
+INFO  13:04:19,423 - #48 b
+INFO  13:04:19,423 - #7 [
+INFO  13:04:19,423 - #8 ]
+INFO  13:04:19,423 - #41 ;
+INFO  13:04:19,423 - #48 int
+INFO  13:04:19,424 - #48 x
+INFO  13:04:19,424 - #7 [
+INFO  13:04:19,424 - #8 ]
+INFO  13:04:19,424 - #41 ;
+INFO  13:04:19,424 - #3 {
+INFO  13:04:19,424 - #11 print
+INFO  13:04:19,425 - #5 (
+INFO  13:04:19,425 - #48 o
+INFO  13:04:19,425 - #6 )
+INFO  13:04:19,425 - #41 ;
+INFO  13:04:19,425 - #4 }
+INFO  13:04:19,425 - #4 }
+INFO  13:04:19,428 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             x
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatement(
+          TermExpr(
+            JustTerm(
+              FactorDes(
+                DesignatorNoArr(
+                 o
+                ) [DesignatorNoArr]
+              ) [FactorDes]
+            ) [JustTerm]
+          ) [TermExpr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:04:19,428 - ===================================
+ERROR 13:04:19,437 - Greska: Pristupa se nedefinisanoj promenljivoj o na liniji 11
+ERROR 13:04:19,437 - Semanticka greska na liniji 11: Operand instrukcije PRINT mora biti char ili int tipa na liniji 11
+INFO  13:04:19,438 - ===================================
+ERROR 13:04:19,438 - Parsiranje NIJE uspesno zavrseno!

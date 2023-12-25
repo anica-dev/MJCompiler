@@ -1,0 +1,99 @@
+INFO  12:49:27,660 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  12:49:27,696 - #2 program
+INFO  12:49:27,696 - #48 Keske
+INFO  12:49:27,696 - #15 const
+INFO  12:49:27,700 - #48 int
+INFO  12:49:27,701 - #48 pi
+INFO  12:49:27,702 - #9 =
+INFO  12:49:27,702 - #47 13
+INFO  12:49:27,703 - #41 ;
+INFO  12:49:27,703 - #48 char
+INFO  12:49:27,704 - #48 x
+INFO  12:49:27,704 - #43 ,
+INFO  12:49:27,704 - #48 y
+INFO  12:49:27,704 - #7 [
+INFO  12:49:27,704 - #8 ]
+INFO  12:49:27,704 - #41 ;
+INFO  12:49:27,705 - #3 {
+INFO  12:49:27,705 - #12 void
+INFO  12:49:27,706 - #48 mainn
+INFO  12:49:27,706 - #5 (
+INFO  12:49:27,706 - #6 )
+INFO  12:49:27,707 - #48 int
+INFO  12:49:27,708 - #48 bodovi
+INFO  12:49:27,708 - #41 ;
+INFO  12:49:27,708 - #3 {
+INFO  12:49:27,708 - #4 }
+INFO  12:49:27,709 - #4 }
+INFO  12:49:27,711 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          ConstDeclaration(
+           pi
+            ConstNum(
+             13
+            ) [ConstNum]
+          ) [ConstDeclaration]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarDeclarationList(
+        SingleVarDeclaration(
+          SingleVarDeclar(
+           x
+          ) [SingleVarDeclar]
+        ) [SingleVarDeclaration]
+        ArrayVarDecl(
+         y
+        ) [ArrayVarDecl]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         mainn
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:49:27,711 - ===================================
+ERROR 12:49:27,720 - Programu nedostaje main metoda na liniji 1
+INFO  12:49:27,720 - ===================================
+ERROR 12:49:27,721 - Parsiranje NIJE uspesno zavrseno!

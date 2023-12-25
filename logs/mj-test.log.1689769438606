@@ -1,0 +1,16 @@
+INFO  16:27:42,845 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  16:27:42,851 - #1 program
+INFO  16:27:42,851 - #4 MJProgram
+INFO  16:27:42,851 - #4 int
+INFO  16:27:42,851 - #4 x
+INFO  16:27:42,851 - #8 ,
+INFO  16:27:42,851 - #4 y
+INFO  16:27:42,851 - #9 ;
+INFO  16:27:42,852 - #12 {
+INFO  16:27:42,852 - #15 void
+INFO  16:27:42,852 - #4 main
+INFO  16:27:42,852 - #10 (
+INFO  16:27:42,852 - #11 )
+INFO  16:27:42,852 - #12 {
+INFO  16:27:42,852 - #13 }
+INFO  16:27:42,852 - #13 }

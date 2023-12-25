@@ -1,0 +1,20 @@
+INFO  19:36:51,074 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  19:36:51,105 - #2 program
+INFO  19:36:51,105 - #48 Keske
+INFO  19:36:51,105 - #15 const
+INFO  19:36:51,106 - #48 int
+INFO  19:36:51,106 - #48 pi
+INFO  19:36:51,108 - #9 =
+INFO  19:36:51,108 - #47 3
+INFO  19:36:51,108 - #41 ;
+INFO  19:36:51,108 - #48 char
+INFO  19:36:51,109 - #48 charr
+INFO  19:36:51,109 - #7 [
+INFO  19:36:51,109 - #8 ]
+INFO  19:36:51,109 - #41 ;
+INFO  19:36:51,110 - #3 {
+INFO  19:36:51,111 - #12 void
+INFO  19:36:51,111 - #12 void
+ERROR 19:36:51,111 - 
+Sintaksna greska na liniji 8
+ERROR 19:36:51,111 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

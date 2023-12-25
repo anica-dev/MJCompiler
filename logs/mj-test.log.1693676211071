@@ -1,0 +1,86 @@
+INFO  19:35:27,330 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  19:35:28,208 - #2 program
+INFO  19:35:28,208 - #48 Keske
+INFO  19:35:28,208 - #15 const
+INFO  19:35:28,240 - #48 int
+INFO  19:35:28,240 - #48 pi
+INFO  19:35:28,255 - #9 =
+INFO  19:35:28,255 - #47 3
+INFO  19:35:28,255 - #41 ;
+INFO  19:35:28,255 - #48 char
+INFO  19:35:28,270 - #48 charr
+INFO  19:35:28,270 - #7 [
+INFO  19:35:28,270 - #8 ]
+INFO  19:35:28,270 - #41 ;
+INFO  19:35:28,271 - #3 {
+INFO  19:35:28,282 - #12 void
+INFO  19:35:28,297 - #48 main
+INFO  19:35:28,297 - #5 (
+INFO  19:35:28,297 - #6 )
+INFO  19:35:28,307 - #48 int
+INFO  19:35:28,317 - #48 bodovi
+INFO  19:35:28,317 - #41 ;
+INFO  19:35:28,317 - #3 {
+INFO  19:35:28,317 - #4 }
+INFO  19:35:28,327 - #4 }
+INFO  19:35:28,339 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+         pi
+          ConstNum(
+           3
+          ) [ConstNum]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         charr
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:35:28,339 - ===================================
+INFO  19:35:28,339 - Parsiranje uspesno zavrseno!

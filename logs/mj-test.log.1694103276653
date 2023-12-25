@@ -1,0 +1,223 @@
+INFO  18:11:28,762 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  18:11:28,794 - #2 program
+INFO  18:11:28,794 - #48 Keske
+INFO  18:11:28,794 - #15 const
+INFO  18:11:28,795 - #48 int
+INFO  18:11:28,795 - #48 pi
+INFO  18:11:28,796 - #9 =
+INFO  18:11:28,796 - #47 13
+INFO  18:11:28,796 - #41 ;
+INFO  18:11:28,797 - #48 int
+INFO  18:11:28,797 - #48 x
+INFO  18:11:28,797 - #43 ,
+INFO  18:11:28,798 - #48 y
+INFO  18:11:28,798 - #7 [
+INFO  18:11:28,798 - #8 ]
+INFO  18:11:28,798 - #41 ;
+INFO  18:11:28,798 - #15 const
+INFO  18:11:28,799 - #48 bool
+INFO  18:11:28,799 - #48 t
+INFO  18:11:28,799 - #9 =
+INFO  18:11:28,799 - #45 1
+INFO  18:11:28,799 - #41 ;
+INFO  18:11:28,800 - #3 {
+INFO  18:11:28,801 - #12 void
+INFO  18:11:28,802 - #48 main
+INFO  18:11:28,802 - #5 (
+INFO  18:11:28,802 - #6 )
+INFO  18:11:28,803 - #48 int
+INFO  18:11:28,803 - #48 bodovi
+INFO  18:11:28,803 - #43 ,
+INFO  18:11:28,803 - #48 b
+INFO  18:11:28,803 - #7 [
+INFO  18:11:28,803 - #8 ]
+INFO  18:11:28,803 - #41 ;
+INFO  18:11:28,803 - #48 int
+INFO  18:11:28,804 - #48 z
+INFO  18:11:28,804 - #7 [
+INFO  18:11:28,804 - #8 ]
+INFO  18:11:28,804 - #41 ;
+INFO  18:11:28,804 - #3 {
+INFO  18:11:28,804 - #48 niz
+INFO  18:11:28,804 - #9 =
+INFO  18:11:28,804 - #18 new
+INFO  18:11:28,806 - #48 int
+INFO  18:11:28,806 - #7 [
+INFO  18:11:28,806 - #47 3
+INFO  18:11:28,806 - #8 ]
+INFO  18:11:28,806 - #41 ;
+INFO  18:11:28,807 - #11 print
+INFO  18:11:28,807 - #5 (
+INFO  18:11:28,807 - #48 x
+INFO  18:11:28,807 - #7 [
+INFO  18:11:28,807 - #47 5
+INFO  18:11:28,807 - #8 ]
+INFO  18:11:28,807 - #6 )
+INFO  18:11:28,807 - #41 ;
+INFO  18:11:28,808 - #4 }
+INFO  18:11:28,808 - #4 }
+INFO  18:11:28,809 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstDeclaration(
+             pi
+              ConstNum(
+               13
+              ) [ConstNum]
+            ) [ConstDeclaration]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             x
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+          ArrayVarDecl(
+           y
+          ) [ArrayVarDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      SingleConstDeclaration(
+        ConstDeclaration(
+         t
+          ConstBool(
+           1
+          ) [ConstBool]
+        ) [ConstDeclaration]
+      ) [SingleConstDeclaration]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        MethVarDeclars(
+          NoVarsDeclared(
+          ) [NoVarsDeclared]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                SingleVarDeclar(
+                 bodovi
+                ) [SingleVarDeclar]
+              ) [SingleVarDeclaration]
+              ArrayVarDecl(
+               b
+              ) [ArrayVarDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [MethVarDeclars]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            ArrayVarDecl(
+             z
+            ) [ArrayVarDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          DesignatorStat(
+            DesignatorStatAssign(
+              DesStatAssignopExpr(
+                DesignatorNoArr(
+                 niz
+                ) [DesignatorNoArr]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                Expr(
+                  TermExpr(
+                    JustTerm(
+                      FactorNewExpr(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr(
+                          TermExpr(
+                            JustTerm(
+                              FactorNum(
+                               3
+                              ) [FactorNum]
+                            ) [JustTerm]
+                          ) [TermExpr]
+                        ) [Expr]
+                      ) [FactorNewExpr]
+                    ) [JustTerm]
+                  ) [TermExpr]
+                ) [Expr]
+              ) [DesStatAssignopExpr]
+            ) [DesignatorStatAssign]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintStatement(
+          Expr(
+            TermExpr(
+              JustTerm(
+                FactorDes(
+                  DesignatorArray(
+                    DesignatorArrName(
+                     x
+                    ) [DesignatorArrName]
+                    Expr(
+                      TermExpr(
+                        JustTerm(
+                          FactorNum(
+                           5
+                          ) [FactorNum]
+                        ) [JustTerm]
+                      ) [TermExpr]
+                    ) [Expr]
+                  ) [DesignatorArray]
+                ) [FactorDes]
+              ) [JustTerm]
+            ) [TermExpr]
+          ) [Expr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:11:28,809 - ===================================
+ERROR 18:11:28,815 - Greska: Pristupa se nedefinisanoj promenljivoj niz na liniji 11
+ERROR 18:11:28,815 - Greska: Promenljiva niza nije adekvatna: x na liniji 12
+ERROR 18:11:28,815 - Semanticka greska na liniji 12: Operand instrukcije PRINT mora biti char ili int tipa na liniji 12
+INFO  18:11:28,815 - ===================================
+ERROR 18:11:28,816 - Parsiranje NIJE uspesno zavrseno!

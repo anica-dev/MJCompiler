@@ -1,0 +1,154 @@
+INFO  17:39:44,798 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  17:39:44,833 - #2 program
+INFO  17:39:44,834 - #46 MJProgram
+INFO  17:39:44,834 - #15 const
+INFO  17:39:44,836 - #46 int
+INFO  17:39:44,836 - #46 x
+INFO  17:39:44,837 - #9 =
+INFO  17:39:44,837 - #45 3
+INFO  17:39:44,837 - #39 ;
+INFO  17:39:44,842 - #46 int
+INFO  17:39:44,843 - #46 y
+INFO  17:39:44,844 - #39 ;
+INFO  17:39:44,844 - #46 int
+INFO  17:39:44,845 - #46 niz
+INFO  17:39:44,845 - #7 [
+INFO  17:39:44,845 - #8 ]
+INFO  17:39:44,845 - #41 ,
+INFO  17:39:44,846 - #46 niz2
+INFO  17:39:44,846 - #7 [
+INFO  17:39:44,846 - #8 ]
+INFO  17:39:44,846 - #41 ,
+INFO  17:39:44,846 - #46 a
+INFO  17:39:44,846 - #41 ,
+INFO  17:39:44,847 - #46 b
+INFO  17:39:44,847 - #39 ;
+INFO  17:39:44,847 - #3 {
+INFO  17:39:44,847 - #12 void
+INFO  17:39:44,849 - #46 main
+INFO  17:39:44,849 - #5 (
+INFO  17:39:44,849 - #6 )
+INFO  17:39:44,850 - #3 {
+INFO  17:39:44,851 - #46 x
+INFO  17:39:44,851 - #9 =
+INFO  17:39:44,852 - #45 3
+INFO  17:39:44,852 - #39 ;
+INFO  17:39:44,853 - #11 print
+INFO  17:39:44,853 - #5 (
+INFO  17:39:44,853 - #46 x
+INFO  17:39:44,853 - #6 )
+INFO  17:39:44,853 - #39 ;
+INFO  17:39:44,853 - #4 }
+INFO  17:39:44,854 - #4 }
+INFO  17:39:44,863 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            SingleConstDecl(
+             x
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [SingleConstDecl]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          SingleVarDeclar(
+           y
+          ) [SingleVarDeclar]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            SingleVarDeclaration(
+              ArrayVarDecl(
+               niz
+              ) [ArrayVarDecl]
+            ) [SingleVarDeclaration]
+            ArrayVarDecl(
+             niz2
+            ) [ArrayVarDecl]
+          ) [VarDeclarationList]
+          SingleVarDeclar(
+           a
+          ) [SingleVarDeclar]
+        ) [VarDeclarationList]
+        SingleVarDeclar(
+         b
+        ) [SingleVarDeclar]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarsDeclared(
+      ) [NoVarsDeclared]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               x
+              ) [Designator]
+              TermExpr(
+                Term(
+                  Const(
+                   3
+                  ) [Const]
+                ) [Term]
+              ) [TermExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Var(
+                  Designator(
+                   x
+                  ) [Designator]
+                ) [Var]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:39:44,863 - ===============
+ERROR 17:39:44,866 - Greska na liniji 9 :imex nije deklarisano!
+ERROR 17:39:44,867 - Greska na liniji 9:nekompatibilni tipovi u dodeli vrednosti!
+ERROR 17:39:44,867 - Greska na liniji 10 :imex nije deklarisano!
+ERROR 17:39:44,868 - Semanticka greska na liniji 10: Operand instrukcije PRINT mora biti char ili int tipa

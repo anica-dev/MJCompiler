@@ -1,0 +1,98 @@
+INFO  12:25:55,627 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  12:25:55,701 - #2 program
+INFO  12:25:55,701 - #48 Keske
+INFO  12:25:55,701 - #15 const
+INFO  12:25:55,702 - #48 int
+INFO  12:25:55,702 - #48 pi
+INFO  12:25:55,702 - #9 =
+INFO  12:25:55,703 - #47 13
+INFO  12:25:55,703 - #41 ;
+INFO  12:25:55,703 - #48 char
+INFO  12:25:55,704 - #48 x
+INFO  12:25:55,704 - #43 ,
+INFO  12:25:55,704 - #48 y
+INFO  12:25:55,705 - #7 [
+INFO  12:25:55,705 - #8 ]
+INFO  12:25:55,705 - #41 ;
+INFO  12:25:55,705 - #3 {
+INFO  12:25:55,706 - #12 void
+INFO  12:25:55,707 - #48 main
+INFO  12:25:55,707 - #5 (
+INFO  12:25:55,707 - #6 )
+INFO  12:25:55,708 - #48 int
+INFO  12:25:55,708 - #48 bodovi
+INFO  12:25:55,709 - #41 ;
+INFO  12:25:55,709 - #3 {
+INFO  12:25:55,709 - #4 }
+INFO  12:25:55,711 - #4 }
+INFO  12:25:55,713 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          ConstDeclaration(
+           pi
+            ConstNum(
+             13
+            ) [ConstNum]
+          ) [ConstDeclaration]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarDeclarationList(
+        SingleVarDeclaration(
+          SingleVarDeclar(
+           x
+          ) [SingleVarDeclar]
+        ) [SingleVarDeclaration]
+        ArrayVarDecl(
+         y
+        ) [ArrayVarDecl]
+      ) [VarDeclarationList]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:25:55,713 - ===================================
+INFO  12:25:55,718 - ===================================
+INFO  12:25:55,718 - Parsiranje uspesno zavrseno!

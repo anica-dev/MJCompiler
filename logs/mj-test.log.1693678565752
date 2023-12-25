@@ -1,0 +1,101 @@
+INFO  19:38:05,011 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  19:38:05,054 - #2 program
+INFO  19:38:05,055 - #48 Keske
+INFO  19:38:05,055 - #15 const
+INFO  19:38:05,056 - #48 int
+INFO  19:38:05,056 - #48 pi
+INFO  19:38:05,057 - #9 =
+INFO  19:38:05,057 - #47 3
+INFO  19:38:05,057 - #41 ;
+INFO  19:38:05,057 - #48 char
+INFO  19:38:05,058 - #48 charr
+INFO  19:38:05,060 - #7 [
+INFO  19:38:05,060 - #8 ]
+INFO  19:38:05,060 - #41 ;
+INFO  19:38:05,060 - #3 {
+INFO  19:38:05,061 - #12 void
+INFO  19:38:05,061 - #48 main
+INFO  19:38:05,061 - #5 (
+INFO  19:38:05,061 - #6 )
+INFO  19:38:05,062 - #48 int
+INFO  19:38:05,063 - #48 bodovi
+INFO  19:38:05,063 - #41 ;
+INFO  19:38:05,063 - #3 {
+INFO  19:38:05,064 - #48 a
+INFO  19:38:05,064 - #28 *
+ERROR 19:38:05,065 - 
+Sintaksna greska na liniji 11
+INFO  19:38:05,067 - #28 *
+INFO  19:38:05,067 - #41 ;
+INFO  19:38:05,067 - #4 }
+INFO  19:38:05,071 - #4 }
+ERROR 19:38:05,072 - Greska u dodeli: 1. Oporavak od greske uspesan.
+INFO  19:38:05,091 - Program(
+  ProgName(
+   Keske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+         pi
+          ConstNum(
+           3
+          ) [ConstNum]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVarDeclaration(
+        ArrayVarDecl(
+         charr
+        ) [ArrayVarDecl]
+      ) [SingleVarDeclaration]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethVarDeclars(
+        NoVarsDeclared(
+        ) [NoVarsDeclared]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            SingleVarDeclar(
+             bodovi
+            ) [SingleVarDeclar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [MethVarDeclars]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStat(
+          DesignatorStatAssign(
+            DesStatAssignopExprError(
+            ) [DesStatAssignopExprError]
+          ) [DesignatorStatAssign]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:38:05,091 - ===================================
+ERROR 19:38:05,091 - Parsiranje NIJE uspesno zavrseno!

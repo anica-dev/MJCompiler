@@ -1,0 +1,128 @@
+INFO  12:43:42,408 - Compiling source file: C:\Users\Anica\eclipse-workspace-new\MJCompiler\test\program.mj
+INFO  12:43:42,429 - #2 program
+INFO  12:43:42,430 - #15 MJProgram
+INFO  12:43:42,430 - #15 int
+INFO  12:43:42,430 - #15 x
+INFO  12:43:42,431 - #5 ;
+INFO  12:43:42,431 - #15 int
+INFO  12:43:42,432 - #15 y
+INFO  12:43:42,432 - #5 ;
+INFO  12:43:42,432 - #3 {
+INFO  12:43:42,432 - #15 int
+INFO  12:43:42,432 - #15 main
+INFO  12:43:42,433 - #6 (
+INFO  12:43:42,433 - #7 )
+INFO  12:43:42,433 - #3 {
+INFO  12:43:42,433 - #12 print
+INFO  12:43:42,434 - #6 (
+INFO  12:43:42,434 - #14 1
+INFO  12:43:42,434 - #7 )
+INFO  12:43:42,434 - #5 ;
+INFO  12:43:42,435 - #15 x
+INFO  12:43:42,435 - #8 =
+INFO  12:43:42,439 - #15 y
+INFO  12:43:42,439 - #10 +
+INFO  12:43:42,439 - #14 5
+INFO  12:43:42,442 - #5 ;
+INFO  12:43:42,442 - #12 print
+INFO  12:43:42,442 - #6 (
+INFO  12:43:42,442 - #14 2
+INFO  12:43:42,442 - #7 )
+INFO  12:43:42,442 - #5 ;
+INFO  12:43:42,442 - #4 }
+INFO  12:43:42,442 - #4 }
+INFO  12:43:42,444 - Program(
+ MJProgram
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     y
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  Term(
+                    Const(
+                     1
+                    ) [Const]
+                  ) [Term]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               x
+              ) [Designator]
+              AddExpr(
+                TermExpr(
+                  Term(
+                    Var(
+                      Designator(
+                       y
+                      ) [Designator]
+                    ) [Var]
+                  ) [Term]
+                ) [TermExpr]
+                Addop(
+                ) [Addop]
+                Term(
+                  Const(
+                   5
+                  ) [Const]
+                ) [Term]
+              ) [AddExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Const(
+                 2
+                ) [Const]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:43:42,444 - ===============
+INFO  12:43:42,447 - Prepoznata naredba print!
+INFO  12:43:42,447 - Prepoznata naredba print!
+INFO  12:43:42,447 - Print count calls = 2
+INFO  12:43:42,447 - Deklarisanih promenljivih ima = 2
